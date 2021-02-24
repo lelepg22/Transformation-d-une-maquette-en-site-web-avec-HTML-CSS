@@ -1,4 +1,14 @@
-/*--@font-face 
+@font-face 
+{
+    font-family: 'ralewaythin_italic';
+    src: url('raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
 {
     font-family: 'ralewaythin';
     src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
@@ -12,7 +22,7 @@
 {
     font-family: 'ralewaythin', Verdana;
 }
---*/
+
 header
 {
     display: flex;
@@ -31,17 +41,16 @@ a:link
 body
 {
     margin: 30px;
-    font-family: 'raleway';
 }
 
 h2
 {
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 h3
 {
-    font-weight: 900;  
+    font-weight: bolder;  
 }
 
 #blocpage
