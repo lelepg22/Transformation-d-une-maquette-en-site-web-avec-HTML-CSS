@@ -15,12 +15,14 @@
 --*/
 header
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     font-weight: bolder;
-    background-image:url(images/logo/reservia.svg);
+    background-image: url(images/logo/reservia.svg);
     background-repeat: no-repeat;
+    text-align: right;
+}
+#headul
+{
+    display: inline-flex;
 }
 
 a:link
@@ -44,7 +46,7 @@ h3
     font-weight: 900;  
 }
 
-#blocpage
+main
 {
     margin-left: 20px;
 }
@@ -52,13 +54,14 @@ h3
 
 .he:nth-child(1)
 {
-   margin-left: 1394px;
+    margin-right: 10px;
   
 }
 
 .he:nth-child(2)
 {
    margin-left: 74px;
+   margin-right: 20px;
     
 }
 
@@ -797,7 +800,7 @@ ul
     margin-top: 24px;
 }
 
-li
+.lifoot
 {
     margin-top:15px;
 }
