@@ -1265,6 +1265,7 @@ ul
 
     #hg
     {
+        margin-top: 8%;
         margin-left: -5px;
         font-size:3em;
     }
@@ -1407,10 +1408,10 @@ ul
     
     #h1
     {   
-         margin-left: -4%;
+        margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;    
     }
@@ -1420,7 +1421,7 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;   
     }
@@ -1430,7 +1431,6 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;  
     }    
@@ -1440,7 +1440,7 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;  
     }
@@ -1450,7 +1450,7 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;  
     }
@@ -1460,7 +1460,7 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 27px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;  
     }
@@ -1476,7 +1476,7 @@ ul
     #arp
     {
         font-size: 3em;
-        margin-top: 15%;
+        margin-top: 14%;
         margin-bottom: 7%;
     }
 
@@ -1512,14 +1512,15 @@ ul
         margin-left: -4%;
         width: 893px;
         height: 475px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;
         background-repeat: no-repeat;
+        background-image: url(images/activites/vieuxp.jpg);
     }
     #pa1
     {
-        width: 97%;
+        width: 99%;
         background-color: white;
         padding-left: 10px;
         display: flex;
@@ -1529,78 +1530,160 @@ ul
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 34%;
-        padding-bottom: 93px;
+        margin-top: 36%;
+        padding-bottom: 50px;
         font-size: 2.7em;
+    }
+
+    .app
+    {
+        margin-top: 4%;
+        margin-left: 3%;
     }
 
      #act2
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+        background-image: url(images/activites/fortp.jpg);
     }
+
     #pa2
     {
-        margin-top: 180px;
+        width: 99%;
+        background-color: white;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 36%;
+        padding-bottom: 50px;
+        font-size: 2.7em;
     }
 
     #act3
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+        background-image: url(images/activites/ilep.jpg);
     }
+
     #pa3
     {
-        margin-top: 190px;
+        width: 99%;
+        background-color: white;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 36%;
+        padding-bottom: 52px;
+        font-size: 2.7em;
     }
 
     #act4
     {
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        border: solid 5px white;
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+        background-image: url(images/activites/parkp.jpg);
     }
+
     #pa4
     {
-        margin-top: 180px;
+       width: 99%;
+       background-color: white;
+       padding-left: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       margin-bottom: -3px;
+       margin-left: -1px;
+       border-bottom-left-radius: 29px;
+       border-bottom-right-radius: 40px;
+       margin-top: 36%;
+       padding-bottom: 50px;
+       font-size: 2.7em;
     }
 
     #act5
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+        background-image: url(images/activites/notrep.jpg);
     }
+
     #pa5
     {
-        margin-top: 180px;
+        width: 99%;
+        background-color: white;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 36%;
+        padding-bottom: 50px;
+        font-size: 2.7em;
     }
 
     #act6
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       margin-left: -4%;
+       width: 893px;
+       height: 475px;
+       margin-bottom: 50px;
+       box-shadow: 5px 5px 9px #f2f2f2;
+       border-radius: 59px;
+       background-repeat: no-repeat;
+       background-image: url(images/activites/longp.jpg);
     }
+
     #pa6
     {
-        margin-top: 190px;
+        width: 99%;
+        background-color: white;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 36%;
+        padding-bottom: 52px;
+        font-size: 2.7em;
     }
 
     footer
