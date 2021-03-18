@@ -1434,11 +1434,11 @@ ul
      #p2 
     {
         width: 115%;
-        height: 307px;
+        height: 322px;
         background-color: white;
         border-radius: 25px;
         background-image: url(../images/hebergements/populaire2.jpg);
-        background-size: 336px 304px;
+        background-size: 336px 317px;
         background-repeat: no-repeat;
         border: solid 10px white;
         display: flex;
@@ -1495,7 +1495,7 @@ ul
     .imp2
     {
         display:flex;
-        margin-top: 14%;
+        margin-top: 13%;
         margin-left: 3%;
     }
 
@@ -1939,7 +1939,20 @@ ul
         font-size:larger;
     }
 
-    @media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
-    {
+@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
+{
+    
+     .imp2  
+        {
+                display: flex;
+                margin-top: 10%;
+                margin-left: 3%;
+        }        
+        
+        .lifoot 
+        {
+                font-size: 2em;
+        }
+}
 
-    }
+}
