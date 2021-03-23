@@ -26,11 +26,8 @@ header
     margin-top: -1%;
     margin-bottom: -1%;
     float: left;
-}
-
-#logor
-{
-    display:none;
+    width: 116px;
+    height: 54px;
 }
 
 nav
@@ -443,7 +440,7 @@ main
     padding-left: 3%
 
 }
-#form::placeholder
+#form:placeholder
 {
     font-family: 'ralewaythin', Verdana;  
     color: black; 
@@ -976,7 +973,7 @@ ul
 
 
 
-@media screen and (max-width:1023px)
+@media screen and (max-width:1280px)
 {
     header
     {
@@ -986,16 +983,14 @@ ul
 
     #logo
     {
-        display:none;
+        width: 229px;
+        height: 107px;
+        margin-bottom: -15%;
+        margin-left: 4%;
+        margin-top: 2%;
     }
 
-    #logor
-    {
-        display: flex;
-        margin-bottom: -15%;
-        margin-left: 2%;
-    }
-    
+        
     nav
     {
         width: auto;
@@ -1098,15 +1093,17 @@ ul
     #form
     {
         border: 1px solid #F2F2F2;
-        height: 80px;
-        width: 667px; 
+        height: 84px;
+        width: 667px;
         padding-left: 7%;
         padding-top: 2%;
+        font-size: 2em;
     }
 
-    #form::placeholder
+    #form:placeholder
     {
         font-size: 2.3em;
+        font-family: 'ralewaythin', Verdana;
     }
 
     #rech
