@@ -455,12 +455,9 @@ main
 .ht2
 {
     margin-top:-7px;
+    color:#0065FC;
 }
 
-.ht4
-{   
-    display:none;
-}
 
 .prix
 {
@@ -470,6 +467,7 @@ main
 {
     font-weight: bold;
 }
+
 
 #h1
 {
@@ -690,16 +688,13 @@ main
 {
     margin-top: 29%;
     margin-left: 2%;
+    color:#0065FC;
 }
 
 #mc
 {
-    margin-top: 19%;
+    
     padding-bottom: 0%;
-}
-.imp2
-{
-    display:none;
 }
 
 #p2
@@ -1413,6 +1408,12 @@ ul
         width: 100%;    
     }
 
+    .imp1
+    {
+        margin-top: 11% ;
+        font-size: 1.5em;
+    }
+
     #p1 
     {
         width: 115%;
@@ -1484,22 +1485,14 @@ ul
         width: 100%;
 
     }
+   
 
-    .imp1
-    {
-        display:none;
-    }
-
-    .imp2
-    {
-        display:flex;
-        margin-top: 13%;
-        margin-left: 3%;
-    }
-
+  
     .ht2
     {
-       display:none;
+        font-size: 1.5em;
+        margin-left: 2%;
+        padding-bottom: 1%;
     }
 
     .ht3
@@ -1510,14 +1503,7 @@ ul
         margin-left: 2%;
     }
 
-    .ht4
-    {
-        display: flex;
-        margin-left: 2%;
-        margin-top: -1%;
-        margin-bottom: 2%;
-    }
-
+   
     #h1x
     {
         width: 100%;
@@ -1618,6 +1604,7 @@ ul
         background-image: url(../images/hebergements/bunkbedr.jpg);  
     }
 
+   
      #h2
     {
         margin-left: -4%;
@@ -1729,18 +1716,13 @@ ul
     #pa1
     {
         width: 99%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 36%;
-        padding-bottom: 54px;
+        margin-top: 41%;
+        padding-bottom: 53px;
         font-size: 2.3em;
+        padding-left: 2%;
     }
 
     .app
@@ -1764,16 +1746,10 @@ ul
     #pa2
     {
         width: 99%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 36%;
+        margin-top: 41%;
         padding-bottom: 53px;
         font-size: 2.3em;
     }
@@ -1793,17 +1769,11 @@ ul
     #pa3
     {
         width: 99%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: 0px;
+        margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 36%;
-        padding-bottom: 60px;
+        margin-top: 41%;
+        padding-bottom: 53px;
         font-size: 2.3em;
     }
 
@@ -1821,19 +1791,13 @@ ul
 
     #pa4
     {
-       width: 99%;
-       background-color: white;
-       padding-left: 10px;
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       margin-bottom: -3px;
-       margin-left: -1px;
-       border-bottom-left-radius: 29px;
-       border-bottom-right-radius: 40px;
-       margin-top: 36%;
-       padding-bottom: 54px;
-       font-size: 2.3em;
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 53px;
+        font-size: 2.3em;
     }
 
     #act5
@@ -1851,17 +1815,11 @@ ul
     #pa5
     {
         width: 99%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 36%;
-        padding-bottom: 54px;
+        margin-top: 41%;
+        padding-bottom: 53px;
         font-size: 2.3em;
     }
 
@@ -1880,17 +1838,11 @@ ul
     #pa6
     {
         width: 99%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
-        margin-top: 36%;
-        padding-bottom: 60px;
+        margin-top: 41%;
+        padding-bottom: 53px;
         font-size: 2.3em;
     }
 
@@ -1934,7 +1886,7 @@ ul
     
     .lifoot
     {
-        font-size:larger;
+        font-size:1.8em;
     }
 
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
