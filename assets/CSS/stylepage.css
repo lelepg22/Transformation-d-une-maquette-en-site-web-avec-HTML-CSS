@@ -440,7 +440,7 @@ main
     padding-left: 3%
 
 }
-#form:placeholder
+#form::placeholder
 {
     font-family: 'ralewaythin', Verdana;  
     color: black; 
@@ -468,145 +468,78 @@ main
     font-weight: bold;
 }
 
+.hebergements
+{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;    
+    width: 320px;
+    height: 250px;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    margin-left: 40px;
+    background-color: white; 
+}
+
+.heberboit
+{
+    background-color: white; 
+    padding-left: 10px;       
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 #h1
-{
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 25px;
+{   
     background-image: url(../images/hebergements/bunkbedsmall.jpg);
-    width: 320px;
-    height: 250px;
-    background-repeat: no-repeat;
-    border: 10px solid white;
-    margin-left: 40px;
 }
 
-#h1x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
 
-}
-#h1xx
-{
-    background-color: white;
-
-}
 
 #h2
-{
-    display: flex;
-    flex-direction: column-reverse;
+{ 
     background-image: url(../images/hebergements/camac.jpg);
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+  
 }
 
-#h2x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 
 #h3
 {
-    display: flex;
-    flex-direction: column-reverse;
     background-image: url(../images/hebergements/lamp.jpg);
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+   
 }
 
-#h3x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h4
 {
-    display: flex;
-    flex-direction: column-reverse;
+    
     background-image: url(../images/hebergements/mer.jpg);
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+ 
 }
 
-#h4x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h5
 {
-    display: flex;
-    flex-direction: column-reverse;
+    
     background-image: url(../images/hebergements/panier.jpg);
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+  
 }
 
-#h5x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h6
 {
-    display: flex;
-    flex-direction: column-reverse;
+    
     background-image: url(../images/hebergements/mina.jpg);
-    background-repeat: no-repeat;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+
 }
 
-#h6x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #spn
 {
@@ -664,19 +597,26 @@ main
     width: 100%;
     height: 70%;
 }
-
-#p1
+.popula
 {
     height: 35%;
     background-color: white;
-    border-radius: 25px;
-    background-image: url(../images/hebergements/populaire1.jpg);
+    border-radius: 25px;    
     background-size: 170px 180px;
     background-repeat: no-repeat;
     border: solid 10px white;
     display: flex;
     margin-bottom: 10%;
     width:103%
+}
+
+
+
+#p1
+{
+    
+    background-image: url(../images/hebergements/populaire1.jpg);
+  
 }
 
 .rpp1
@@ -695,21 +635,13 @@ main
 {
     
     padding-bottom: 0%;
+    margin-top: 20%;
 }
 
 #p2
 {
-    height: 29%;
-    background-color: white;
-    border-radius: 25px;
-    background-image: url(../images/hebergements/populaire2.jpg);
-    background-size: 170px 180px;
-    background-repeat: no-repeat;
-    border: solid 10px white;
-    display: flex;
-    margin-bottom: 10%;
-    width:103%
-    
+   
+    background-image: url(../images/hebergements/populaire2.jpg);   
 }
 
 #p2pp
@@ -723,16 +655,8 @@ padding-bottom: 3%;
 
 #p3
 {
-    height: 35%;
-    background-color: white;
-    border-radius: 25px;
-    background-image: url(../images/hebergements/populaire3.jpg);
-    background-size: 170px 180px;
-    background-repeat: no-repeat;
-    border: solid 10px white;
-    display: flex;
-    margin-bottom: 10%;
-    width:103%
+      background-image: url(../images/hebergements/populaire3.jpg);
+   
 }
 
 #resul
@@ -748,7 +672,7 @@ padding-bottom: 3%;
     margin-top: 65px;
 }
 
-#r3u
+#actg1
 {
     display: flex;
     flex-direction: column;
@@ -762,14 +686,40 @@ padding-bottom: 3%;
     margin-left: 8px;
 }
 
-#act1
+.bigact
 {
-    background-image: url(../images/activites/vieux.jpg);
     background-repeat: round;
     width: 400px;
     height: 565px;
     border-radius: 25px;
     border: solid 1px #F2F2F2;
+}
+
+.mact
+{
+    background-repeat: round;
+    border-radius: 25px;
+    border: solid 1px #F2F2F2;
+    width: 400px;
+    height: 242px;
+    margin-bottom: 68px; 
+    margin-left: 61px;
+}
+
+.sact
+{
+    background-repeat: round;
+    border-radius: 25px;
+    border: solid 1px #F2F2F2;
+    width: 400px;
+    height: 202px;
+    margin-left: 61px;
+}
+
+#act1
+{
+    background-image: url(../images/activites/vieux.jpg);
+   
 }
 
 
@@ -789,13 +739,7 @@ padding-bottom: 3%;
 #act2
 {
     background-image: url(../images/activites/fort.jpg);  
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 282px;
-    margin-bottom: 74px;
-    margin-left: 61px;
+  
 }   
 
 #pa2
@@ -804,7 +748,7 @@ padding-bottom: 3%;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 254px;
+    margin-top: 206px;
     padding-left: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -814,12 +758,7 @@ padding-bottom: 3%;
 #act3
 {
     background-image:url(../images/activites/ile.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 202px;
-    margin-left: 61px;
+  
 }
 
 #pa3
@@ -834,7 +773,7 @@ padding-bottom: 3%;
     font-weight: bolder;
 }
 
-#r3u2
+#actg2
 {  
     display: flex;
     flex-direction: column;
@@ -846,12 +785,7 @@ padding-bottom: 3%;
 
 #act4
 {
-    background-image: url(../images/activites/park.jpg);
-    background-repeat: round;
-    width: 400px;
-    height: 565px;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
+    background-image: url(../images/activites/park.jpg);    
 
 }
 
@@ -871,13 +805,7 @@ padding-bottom: 3%;
 #act5
 {
     background-image: url(../images/activites/notre.jpg);  
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 242px;
-    margin-bottom: 68px; 
-    margin-left: 61px;
+   
 }
 
 #pa5
@@ -896,23 +824,19 @@ padding-bottom: 3%;
 #act6
 {
     background-image:url(../images/activites/long.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 242px;
-    margin-left: 61px;    
+     
+    
 }
 
 #pa6
 {
     background-color: white;
-    margin-top: 197px;
+    margin-top: 155px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     padding-top: 15px;
     padding-bottom: 17px;
-    padding-left: 12px; 
+    padding-left: 12px;
     font-weight: bolder;
 }
 
@@ -1092,10 +1016,10 @@ ul
         width: 667px;
         padding-left: 7%;
         padding-top: 2%;
-        font-size: 2em;
+        font-size: 1em;
     }
 
-    #form:placeholder
+    #form::placeholder
     {
         font-size: 2.3em;
         font-family: 'ralewaythin', Verdana;
@@ -1133,11 +1057,9 @@ ul
 
     #filtres 
     {
-        display: flex;
-        flex-direction: row;
+        
         align-items: end;
-        font-weight: bold;
-        margin-bottom: 20px;
+       
         flex-wrap: wrap;
         margin-left: 4%;
     }
@@ -1149,8 +1071,7 @@ ul
 
     #fil2 
 
-    {
-        display: flex;
+    {        
         flex-wrap: wrap;
     }
 
@@ -1337,18 +1258,13 @@ ul
     }
 
     #gberg
-    {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column-reverse;
-        
+    {       
+        flex-direction: column-reverse;        
     }
 
     #h2c
     {
-        flex-wrap: wrap;
-        border-radius: 25px;
-        display: flex;
+                      
         width: auto;
         margin-right: auto;
         background-color: white;
@@ -1356,25 +1272,21 @@ ul
     }
 
     #asid
-    {
-        flex-wrap: wrap;
-        background-color: #F2F2F2;
-        border-radius: 0;
-        display: flex;    
+    {            
+        border-radius: 0;         
         margin-right: 0;
         width: 109%;
         margin-left: -52px;
     }
 
     #tp
-    {
-    width: 100%;
-    margin-left: 10px;
-    font-size: 3em;
-    background-image: url(../images/buttons/ichartp.png);
-    background-repeat: no-repeat;
-    background-position: 92%;
-    padding-left: 0px;
+    {    
+        margin-left: 10px;
+        font-size: 3em;
+        background-image: url(../images/buttons/ichartp.png);
+        background-repeat: no-repeat;
+        background-position: 92%;
+        padding-left: 0px;
     }
 
     #chart
@@ -1414,56 +1326,31 @@ ul
         font-size: 1.5em;
     }
 
-    #p1 
+    #mc
     {
-        width: 115%;
-        height: 307px;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(../images/hebergements/populaire1.jpg);
-        background-size: 336px 304px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
-        margin-bottom: 7%;
-        margin-left: -18px;
-        
+        margin-top: 8%;
     }
 
-     #p2 
+    #mc2
+    {
+        margin-left: 53%;
+        width: 74%;
+    }
+    .popula
     {
         width: 115%;
-        height: 322px;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(../images/hebergements/populaire2.jpg);
-        background-size: 336px 317px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
+        height: 307px;        
+        background-size: 336px 304px;       
         margin-bottom: 7%;
         margin-left: -18px;
     }
 
+  
     #p2pp
     {
         margin-left: 53%;
     }
-
-     #p3 
-    {
-        width: 115%;
-        height: 307px;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(../images/hebergements/populaire3.jpg);
-        background-size: 336px 304px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
-        margin-bottom: 7%;
-        margin-left: -14px;
-    }
+    
 
     #hg
     {
@@ -1503,159 +1390,60 @@ ul
         margin-left: 2%;
     }
 
-   
-    #h1x
+    .heberboit
     {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        width: 100%;        
+        padding-left: 10px;            
         margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-
-    #h2x
+        border-bottom-right-radius: 40px;   
+    }    
+    
+    .hebergements
     {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-
-    #h3x
-    {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-
-    #h4x
-    {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-
-    #h5x
-    {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-
-    #h6x
-    {
-        width: 100%;
-        background-color: white;
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: -3px;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;  
-    }
-    
-    
-    
-    
-    
-    
-    #h1
-    {   
         margin-left: -4%;
         width: 893px;
         height: 475px;
         margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;  
+    }
+
+    #h1
+    {   
+        
         background-image: url(../images/hebergements/bunkbedr.jpg);  
     }
 
    
      #h2
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 40px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;   
+        
         background-image:url(../images/hebergements/camacr2.jpg)
     }
 
      #h3
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px; 
+      
         background-image:url(../images/hebergements/lampr.jpg) 
     }    
 
      #h4
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 40px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;  
+        
         background-image: url(../images/hebergements/merr.jpg);
     }
 
      #h5
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 40px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px; 
+       
         background-image: url(../images/hebergements/panierr.jpg); 
     }
 
      #h6
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 27px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;  
+       
         background-image: url(../images/hebergements/minar.jpg);
     }
 
@@ -1680,29 +1468,27 @@ ul
         margin-top: 50px;
     }
 
-    #resul
+    #resul    
     {
-        display: flex;
+        
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-bottom: 65px;
+        
     }
 
-    #r3u
+    #actg1
     {
         width: auto;
         height: auto;
     }
 
-    #r3u2
+    #actg2
     {
         width: auto;
         height: auto;
         margin-left: 0;
     }
     
-    #act1
+    .bigact
     {
         margin-left: -4%;
         width: 893px;
@@ -1711,6 +1497,33 @@ ul
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;
         background-repeat: no-repeat;
+    }
+    .mact
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+
+    }
+
+    .sact
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+    }
+
+    #act1
+    {
+      
         background-image: url(../images/activites/vieuxp.jpg);
     }
     #pa1
@@ -1733,13 +1546,7 @@ ul
 
      #act2
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
+       
         background-image: url(../images/activites/fortp.jpg);
     }
 
@@ -1756,13 +1563,7 @@ ul
 
     #act3
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
+       
         background-image: url(../images/activites/ilep.jpg);
     }
 
@@ -1779,13 +1580,7 @@ ul
 
     #act4
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
+      
         background-image: url(../images/activites/parkp.jpg);
     }
 
@@ -1802,13 +1597,7 @@ ul
 
     #act5
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
+       
         background-image: url(../images/activites/notrep.jpg);
     }
 
@@ -1825,13 +1614,7 @@ ul
 
     #act6
     {
-       margin-left: -4%;
-       width: 893px;
-       height: 475px;
-       margin-bottom: 50px;
-       box-shadow: 5px 5px 9px #f2f2f2;
-       border-radius: 59px;
-       background-repeat: no-repeat;
+       
        background-image: url(../images/activites/longp.jpg);
     }
 
@@ -1850,8 +1633,7 @@ ul
     {
         width:107%;
         margin-left:-38px;
-        height: auto;
-        display: flex;
+        height: auto;        
         flex-direction: column;        
     }
 
@@ -1886,7 +1668,7 @@ ul
     
     .lifoot
     {
-        font-size:1.8em;
+        font-size:2.2em;
     }
 
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
