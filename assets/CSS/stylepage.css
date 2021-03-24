@@ -1479,6 +1479,7 @@ ul
     {
         width: auto;
         height: auto;
+        flex-wrap: initial;
     }
 
     #actg2
@@ -1486,6 +1487,7 @@ ul
         width: auto;
         height: auto;
         margin-left: 0;
+        flex-wrap: initial;
     }
     
     .bigact
