@@ -384,7 +384,7 @@ main
     flex-direction: row;
 }
 
-#h2c
+#hdisplay
 {
     flex-wrap: wrap;
     background-color:#F2F2F2;
@@ -395,7 +395,7 @@ main
     margin-left: -5px;
 }
 
-#hg
+#htitle
 {
     margin-top: 50px;
     margin-left: 55px;
@@ -642,7 +642,7 @@ padding-bottom: 3%;
     margin-bottom: 65px;
 }
 
-#ms
+#activites
 {
     margin-top: 65px;
 }
@@ -656,7 +656,7 @@ padding-bottom: 3%;
     flex-wrap: wrap;
 }
 
-#arp
+#tactiv
 {
     margin-left: 8px;
 }
@@ -1191,7 +1191,7 @@ ul
         flex-direction: column-reverse;        
     }
 
-    #h2c
+    #hdisplay
     {
                       
         width: auto;
@@ -1376,7 +1376,7 @@ ul
         font-size: 2.3em;
     }
 
-    #arp
+    #tactiv
     {
         font-size: 3em;
         margin-top: 14%;
@@ -1384,7 +1384,7 @@ ul
         margin-left: 0;
     }
 
-    #ms
+    #activites
     {
         margin-top: 50px;
     }
