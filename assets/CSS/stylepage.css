@@ -161,8 +161,14 @@ main
 }  
 #rech2
 {
+
     margin-top: -4%;
 } 
+
+#rechr
+{
+    display: none;
+}
 
 #butmap
 {
@@ -174,10 +180,7 @@ main
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     width: 50px;
-}
-#butmapp
-{
-    display:none;
+    font-size: 0.8em;
 }
 
 
@@ -201,12 +204,19 @@ main
     display: flex;
 }
 
-#mont
+
+
+
+.filtret
 {
   
-     margin-right: 15px;
-     margin-top:5%;  
+     margin-right: 15px;     
    
+}
+
+#fecotext
+{
+    margin-top:5%;
 }
 
 #mon
@@ -217,6 +227,7 @@ main
     height: 35px;
     display: inline-flex;
     margin-right: 15px;
+    
 
 }
 #mon:hover
@@ -224,22 +235,8 @@ main
     background-color:#DEEBFF ;
 }
 
-#moni
-{
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 40px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
-    margin-top: -2%;
-}
-#monip
-{
-    display:none;
-}
+
+
 
 #child
 {
@@ -259,17 +256,7 @@ main
 }    
 
 
-#childi
-{
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 39px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
-}
+
 
 #childt
 {
@@ -293,21 +280,7 @@ main
 } 
 
 
-#hearti
-{
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 39px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
-}
-#heartip
-{
-    display:none;
-}
+
 
 #heartt
 {
@@ -335,7 +308,11 @@ main
     margin-right: 15px
 }
 
-#dogi
+#monr
+{
+    margin-top:-2%;
+}
+.prondf
 {
     background-color: #DEEBFF;
     width: 39px;
@@ -345,6 +322,7 @@ main
     margin-right: 10px;
     display:flex;
     justify-content: center;
+    color: #0065FC;
 }
 
 #info
@@ -562,15 +540,12 @@ main
 
 }
 
-#ichar
+#ichart
 {
-    margin-left: 971%;
+   
+    font-size:1.4em;
 }
 
-#ichartp
-{
-    display:none;
-}
 
 #lp
 {
@@ -983,7 +958,15 @@ ul
 
     #butmap
     {
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        height: 85px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        width: 98px;  
+        font-size: 1.5em;
     }
 
     #spn
@@ -992,22 +975,7 @@ ul
         width: 87%;
         margin-left: 2%;
     }
-
-    #butmapp
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #F2F2F2;
-        height: 85px;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-        width: 98px; 
-        background-image: url(../images/buttons/mapmarkerp.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: 0%;
-    }
+  
 
     #form
     {
@@ -1039,21 +1007,24 @@ ul
 
     #rech2
     {
-        background-image: url(../images/buttons/search1.png);
         background-color: #0065FC;
         border: 10px;
         color: #FFFFFF;
         padding: 15px;
-        text-decoration: none;
-        font-size: 14px;
         vertical-align: middle;
         border-radius: 26px;
-        width: 59px;
-        height: 50px;
-        background-repeat: no-repeat;
-        background-position: center;
+        width: 52px;
+        height: 44px;
+        padding-left: 25px;
+        padding-top: 25px;
         margin-top: 0;
+        font-size: 1.9em;
     }
+    #rechr
+    {
+        display: contents;
+    }
+   
 
     #filtres 
     {
@@ -1075,6 +1046,18 @@ ul
         flex-wrap: wrap;
     }
 
+    #fecotext
+    {
+        margin-top: 0%;
+    }
+
+    .filtret
+    {
+        font-size: 2em;
+        margin-top: 0%;
+        
+    }
+
     #mon
     {
         border: 4px solid;
@@ -1083,34 +1066,20 @@ ul
         border-radius: 34px;
         height: 74px;
         display: inline-flex;
-        width: 46%;
+        width: 38%;
         margin-right: 15px;
     }
-    #mont
+
+    #monr
     {
-        margin-left: 10%;
-        font-size: 2em;  
-        margin-top:0;
+        margin-top: 0;   
+        width: 28%;     
     }
 
-    #moni
+    
+    #childr
     {
-        display:none;
-    }
-
-    #monip
-    {
-        width: 24%;
-        height: 120%;
-        align-items: center;
-        border-radius: 57px;
-        display: flex;
-        justify-content: center;
-        margin-left: -2%; 
-        background-color: #DEEBFF;    
-        background-image: url(../images/buttons/moneyp.png);  
-        background-repeat: no-repeat;
-        background-position: center;     
+        width: 31%;
     }
 
     #child
@@ -1131,25 +1100,9 @@ ul
         font-size: 2em;
     }
 
-    #childi
+    #heartr
     {
-        display: none;        
-    }
-
-    #childip
-    {
-        width: 32%;
-        height: 120%;
-        align-items: center;
-        border-radius: 57px;
-        margin-right: 28px;
-        display: flex;
-        justify-content: center;
-        margin-left: -2%; 
-        background-color: #DEEBFF;    
-        background-image: url(../images/buttons/childp.png);  
-        background-repeat: no-repeat;
-        background-position: center;   
+        width: 27%;
     }
 
     #heart
@@ -1165,26 +1118,7 @@ ul
         margin-right: 12%;
     }
 
-    #hearti
-    {
-        display:none;
-    }
-
-    #heartip
-    {
-        width: 28%;
-        height: 120%;
-        align-items: center;
-        border-radius: 57px;
-        margin-right: 28px;
-        display: flex;
-        justify-content: center;
-        margin-left: -2%; 
-        background-color: #DEEBFF;    
-        background-image: url(../images/buttons/heartp.png);  
-        background-repeat: no-repeat;
-        background-position: center;       
-    }
+    
 
     #heartt
     {
@@ -1204,26 +1138,20 @@ ul
         margin-left: 1%;
     }
 
-    #dogi
-    {
-        display: none;
-    }
-    
-    #dogip
+    .prondf
     {
         width: 22%;
         height: 120%;
         align-items: center;
         border-radius: 57px;
-        margin-right: 28px;
-        display: flex;
+        margin-right: 28px;       
         justify-content: center;
         margin-left: -2%; 
         background-color: #DEEBFF;    
-        background-image: url(../images/buttons/dogp.png);  
-        background-repeat: no-repeat;
-        background-position: center; 
+        font-size: 2em;
+    
     }
+    
     
     #dogt
     {
@@ -1241,6 +1169,7 @@ ul
     {
         display: none;
     }
+
     #binp
     {
         width: 5%;
@@ -1282,10 +1211,8 @@ ul
     #tp
     {    
         margin-left: 10px;
-        font-size: 3em;
-        background-image: url(../images/buttons/ichartp.png);
-        background-repeat: no-repeat;
-        background-position: 92%;
+        font-size: 3em;       
+       
         padding-left: 0px;
     }
 
@@ -1297,16 +1224,10 @@ ul
 
     #ichart 
     {
-        display:none;      
+        font-size:2.1em;
+        margin-left: -257%
     }
-
-    #ichartp
-    {
-        width: 50%;
-        background-image: url(../images/buttons/ichartp.png);
-        background-repeat: no-repeat;
-        background-position:  center;
-    }
+    
 
     #le3p 
     {
