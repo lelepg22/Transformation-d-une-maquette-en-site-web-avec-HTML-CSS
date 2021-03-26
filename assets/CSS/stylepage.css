@@ -230,7 +230,7 @@ main
     
 
 }
-#mon:hover
+.filhover:hover
 {
     background-color:#DEEBFF ;
 }
@@ -250,10 +250,7 @@ main
 
 }
 
-#child:hover
-{
-    background-color: #DEEBFF;
-}    
+  
 
 
 
@@ -274,10 +271,7 @@ main
     margin-right: 15px;
 }
 
-#heart:hover
-{
-    background-color: #DEEBFF;
-} 
+
 
 
 
@@ -298,10 +292,7 @@ main
     margin-right: 15px;
 }
 
-#dog:hover
-{
-    background-color: #DEEBFF;
-} 
+ 
 
 #dogt
 {
@@ -332,6 +323,7 @@ main
     align-items: center;
     margin-bottom: 17px;
     margin-left: 4px;
+    
 }
 
 #bin
@@ -344,12 +336,9 @@ main
     display: flex;
     justify-content: center;
     border: 1px solid;
-    border-color: #F2F2F2;   
-}
-
-#binp
-{
-    display:none;
+    border-color: #F2F2F2;  
+    color: #0065FC; 
+    font-size: 0.7em;
 }
 
 #heberg
@@ -676,8 +665,19 @@ padding-bottom: 3%;
     border-radius: 25px;
     border: solid 1px #F2F2F2;
     width: 400px;
-    height: 242px;
-    margin-bottom: 68px; 
+    height: 294px;
+    margin-bottom: 55px; 
+    margin-left: 61px;
+}
+
+.msact
+{
+    background-repeat: round;
+    border-radius: 25px;
+    border: solid 1px #F2F2F2;
+    width: 400px;
+    height: 254px;
+    margin-bottom: 49px; 
     margin-left: 61px;
 }
 
@@ -687,7 +687,7 @@ padding-bottom: 3%;
     border-radius: 25px;
     border: solid 1px #F2F2F2;
     width: 400px;
-    height: 202px;
+    height: 209px;
     margin-left: 61px;
 }
 
@@ -698,12 +698,12 @@ padding-bottom: 3%;
 }
 
 
-#pa1
+.textbigact
 {
     padding-top: 20px;
     background-color: white;
     margin-top: 511px;
-    padding-left: 10px;
+    padding-left: 18px;
     padding-bottom: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -723,8 +723,8 @@ padding-bottom: 3%;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 206px;
-    padding-left: 10px;
+    margin-top: 236px;
+    padding-left: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bolder;
@@ -742,9 +742,9 @@ padding-bottom: 3%;
     margin-top: 155px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding-top: 15px;
-    padding-bottom: 17px;
-    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
     font-weight: bolder;
 }
 
@@ -783,14 +783,14 @@ padding-bottom: 3%;
    
 }
 
-#pa5
+.textactms
 {
     background-color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 206px;
-    padding-left: 10px;
+    margin-top: 197px;
+    padding-left: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bolder;
@@ -799,21 +799,11 @@ padding-bottom: 3%;
 #act6
 {
     background-image:url(../images/activites/long.jpg);
-     
+    margin-bottom: 0;     
     
 }
 
-#pa6
-{
-    background-color: white;
-    margin-top: 155px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding-top: 15px;
-    padding-bottom: 17px;
-    padding-left: 12px;
-    font-weight: bolder;
-}
+
 
 footer
 {
@@ -1162,18 +1152,15 @@ ul
     {
         font-size: 1.8em;
         margin-left: 4%;
-        margin-top: 5%;        
+        margin-top: 5%; 
+            
     }
+   
 
     #bin
     {
-        display: none;
-    }
-
-    #binp
-    {
         width: 5%;
-        height: 34px;
+        height: 42px;
         align-items: center;
         border-radius: 25px;
         margin-right: 10px;
@@ -1181,9 +1168,7 @@ ul
         justify-content: center;
         border: 1px solid;
         border-color: #F2F2F2;
-        background-image: url(../images/buttons/infop.png);
-        background-repeat: no-repeat;
-        background-position: center;
+      
     }
 
     #gberg
@@ -1433,6 +1418,17 @@ ul
 
     }
 
+    .msact
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+    }
+
     .sact
     {
         margin-left: -4%;
@@ -1449,7 +1445,8 @@ ul
       
         background-image: url(../images/activites/vieuxp.jpg);
     }
-    #pa1
+
+    .textbigact
     {
         width: 99%;
         margin-left: -1px;
@@ -1524,7 +1521,7 @@ ul
         background-image: url(../images/activites/notrep.jpg);
     }
 
-    #pa5
+   .textactms
     {
         width: 99%;
         margin-left: -1px;
@@ -1539,6 +1536,8 @@ ul
     {
        
        background-image: url(../images/activites/longp.jpg);
+      
+       
     }
 
     #pa6
