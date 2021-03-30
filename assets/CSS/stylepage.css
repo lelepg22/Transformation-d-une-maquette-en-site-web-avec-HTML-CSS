@@ -183,7 +183,6 @@ main
     font-size: 0.8em;
 }
 
-
 #filtres
 {
     display:flex;
@@ -191,6 +190,18 @@ main
     align-items: center;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.filtreb
+{
+    border:1px solid;
+    border-color:#F2F2F2;
+    border-radius:25px;    
+    height: 35px;
+    display: inline-flex;
+    margin-right: 15px;
+    align-items: center;
+
 }
 
 #fil
@@ -203,9 +214,6 @@ main
     align-items: center;
     display: flex;
 }
-
-
-
 
 .filtret
 {
@@ -221,13 +229,7 @@ main
 
 #mon
 {
-    border:1px solid;
-    border-color:#F2F2F2;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
-    
+   align-items: unset;    
 
 }
 .filhover:hover
@@ -235,64 +237,15 @@ main
     background-color:#DEEBFF ;
 }
 
-
-
-
-#child
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
-
-}
-
-  
-
-
-
-
 #childt
 {
     margin-right: 15px
 }
 
-#heart
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
-}
-
-
-
-
-
-
 #heartt
 {
     margin-right: 15px
-}
-
-#dog
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex; 
-    margin-right: 15px;
-}
-
- 
+} 
 
 #dogt
 {
@@ -350,6 +303,7 @@ main
     margin-left:10px;
 }
 
+
 #troisp
 { 
     display: flex;
@@ -397,6 +351,7 @@ main
     margin-left: 60px;
     font-weight: bolder;
     margin-bottom:50px;
+    margin-top:-2%;
 }
 
 #form
@@ -424,7 +379,10 @@ main
     margin-top:-7px;
     color:#0065FC;
 }
-
+.stargraycolor
+{
+    color:#DEEBFF;
+}
 
 .prix
 {
@@ -445,7 +403,8 @@ main
     background-repeat: no-repeat;
     border: 10px solid white;
     margin-left: 40px;
-    background-color: white; 
+    margin-bottom: 11%;
+    background-color: rgb(148, 130, 130); 
 }
 
 .heberboit
@@ -650,43 +609,35 @@ padding-bottom: 3%;
     margin-left: 8px;
 }
 
-.bigact
+.standactivities
 {
     background-repeat: round;
-    width: 400px;
-    height: 565px;
     border-radius: 25px;
     border: solid 1px #F2F2F2;
+    width: 400px;
+}
+
+.bigact
+{   
+    height: 565px;    
 }
 
 .mact
-{
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
+{  
     height: 294px;
     margin-bottom: 55px; 
     margin-left: 61px;
 }
 
 .msact
-{
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
+{   
     height: 254px;
     margin-bottom: 49px; 
     margin-left: 61px;
 }
 
 .sact
-{
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
+{   
     height: 209px;
     margin-left: 61px;
 }
@@ -715,19 +666,24 @@ padding-bottom: 3%;
 {
     background-image: url(../images/activites/fort.jpg);  
   
-}   
+}
 
-#pa2
-{   
+.txtsactmact
+{
     background-color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 236px;
     padding-left: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bolder;
+}
+
+#pa2
+{       
+    margin-top: 236px;  
+   
 }
 
 #act3
@@ -737,15 +693,8 @@ padding-bottom: 3%;
 }
 
 #pa3
-{
-    background-color: white;
-    margin-top: 155px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 18px;
-    font-weight: bolder;
+{   
+    margin-top: 155px;   
 }
 
 #actg2
@@ -764,18 +713,6 @@ padding-bottom: 3%;
 
 }
 
-#pa4
-{
-    padding-top: 20px;
-    background-color: white;
-    margin-top: 511px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom: solid 1px #F2F2F2;
-    font-weight: bolder;
-}
 
 #act5
 {
@@ -1047,8 +984,7 @@ ul
         margin-top: 0%;
         
     }
-
-    #mon
+    .filtreb
     {
         border: 4px solid;
         border-color: #F2F2F2;
@@ -1056,8 +992,13 @@ ul
         border-radius: 34px;
         height: 74px;
         display: inline-flex;
+    }
+
+    #mon
+    {        
         width: 38%;
         margin-right: 15px;
+        align-items: center;
     }
 
     #monr
@@ -1074,12 +1015,7 @@ ul
 
     #child
     {
-        border: 4px solid;
-        border-color: #F2F2F2;
-        align-items: center;
-        border-radius: 34px;
-        height: 74px;
-        display: inline-flex;
+        
         width: 33%;
         margin-right: 23px;
         margin-left: 1%;
@@ -1097,12 +1033,7 @@ ul
 
     #heart
     {
-        border: 4px solid;
-        border-color: #F2F2F2;
-        align-items: center;
-        border-radius: 34px;
-        height: 74px;
-        display: inline-flex;
+      
         width: 38%;
         margin-top: 3%;
         margin-right: 12%;
@@ -1117,12 +1048,7 @@ ul
 
     #dog
     {
-        border: 4px solid;
-        border-color: #F2F2F2;
-        align-items: center;
-        border-radius: 34px;
-        height: 74px;
-        display: inline-flex;
+    
         width: 47%;
         margin-top: 3%;
         margin-left: 1%;
@@ -1195,9 +1121,8 @@ ul
 
     #tp
     {    
-        margin-left: 10px;
+        margin-left: 0px;
         font-size: 3em;       
-       
         padding-left: 0px;
     }
 
@@ -1313,7 +1238,7 @@ ul
         height: 475px;
         margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;  
+        border-radius: 59px;          
     }
 
     #h1
@@ -1351,6 +1276,12 @@ ul
     {
        
         background-image: url(../images/hebergements/minar.jpg);
+    }
+
+    #htitle
+    {
+        font-size: 3em;
+        margin-left: 0;
     }
 
     #ap
@@ -1396,40 +1327,7 @@ ul
         flex-wrap: initial;
     }
     
-    .bigact
-    {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
-    }
-    .mact
-    {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
-
-    }
-
-    .msact
-    {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
-        margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
-        background-repeat: no-repeat;
-    }
-
-    .sact
+    .standactivities
     {
         margin-left: -4%;
         width: 893px;
@@ -1453,9 +1351,10 @@ ul
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
-        padding-bottom: 53px;
+        padding-bottom: 41px;
         font-size: 2.3em;
-        padding-left: 2%;
+        padding-left: 5%;
+        padding-top: 4%;
     }
 
     .app
@@ -1470,15 +1369,23 @@ ul
         background-image: url(../images/activites/fortp.jpg);
     }
 
-    #pa2
+    .txtsactmact
     {
         width: 99%;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
-        padding-bottom: 53px;
+        padding-bottom: 41px;
         font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
+    #pa2
+    {
+        margin-top: 41%;
+
     }
 
     #act3
@@ -1489,31 +1396,14 @@ ul
 
     #pa3
     {
-        width: 99%;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;
         margin-top: 41%;
-        padding-bottom: 53px;
-        font-size: 2.3em;
     }
 
     #act4
     {
       
         background-image: url(../images/activites/parkp.jpg);
-    }
-
-    #pa4
-    {
-        width: 99%;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;
-        margin-top: 41%;
-        padding-bottom: 53px;
-        font-size: 2.3em;
-    }
+    }   
 
     #act5
     {
@@ -1528,8 +1418,10 @@ ul
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
-        padding-bottom: 53px;
+        padding-bottom: 41px;
         font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
     }
 
     #act6
@@ -1539,17 +1431,7 @@ ul
       
        
     }
-
-    #pa6
-    {
-        width: 99%;
-        margin-left: -1px;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;
-        margin-top: 41%;
-        padding-bottom: 53px;
-        font-size: 2.3em;
-    }
+    
 
     footer
     {
