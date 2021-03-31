@@ -256,6 +256,7 @@ main
 {
     margin-top:-2%;
 }
+
 .prondf
 {
     background-color: #DEEBFF;
@@ -301,23 +302,6 @@ main
     flex-wrap: wrap;
     margin-bottom: 40px;
     margin-left:10px;
-}
-
-
-#troisp
-{ 
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-#troisd
-{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
 }
 
 #gberg
