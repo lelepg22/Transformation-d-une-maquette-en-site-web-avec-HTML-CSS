@@ -5,9 +5,7 @@
          url('font/raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 *
 {
     font-family: 'ralewaythin', Verdana;
@@ -609,7 +607,7 @@ padding-bottom: 3%;
 .mact
 {  
     height: 294px;
-    margin-bottom: 55px; 
+    margin-bottom: 52px; 
     margin-left: 61px;
 }
 
@@ -778,7 +776,7 @@ ul
 
 
 
-@media screen and (max-width:1280px)
+@media screen and (max-device-width:667px)
 {
     header
     {
@@ -1458,7 +1456,244 @@ ul
     {
         font-size:2.2em;
     }
+}
 
+@media screen and (min-device-width:720px) and (max-device-width:1366px)
+{
+    #nav
+    {
+        margin-top:4%;
+    }
+
+    #hdisplay
+    {
+       width: 102%;
+       margin-left: -2%;
+       align-content: center;
+    }
+
+    article
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    #asid
+    {
+        width: auto;
+        height: fit-content;        
+        margin-top: 4%;
+    }
+    #heberg
+    {
+        justify-content: center;
+        margin-left:0;
+    }
+    #gberg
+    {
+        display: unset;
+    }
+    #htitle
+    {        
+        font-size: 1.8em;
+        margin-top: 3%;
+    }
+    .hebergements
+    {
+        width: 369px;
+    }
+    .heberboit
+    {
+        width: 365px;
+        margin-left: -1%;
+        padding-bottom: 1%;
+        margin-bottom: -1%;
+    }
+    #ap
+    {
+        font-size: 1.2em;
+    }
+   
+    #reve
+    {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    #tpr
+    {
+        text-align:center;
+        font-size: 1.2em;
+    }
+    #filtres
+    {
+        justify-content: center;
+    }
+    #form
+    {
+        width: 327px;
+    }
+    #spn
+    {
+        align-items: baseline;
+        margin-top: 1%;
+    }
+    #form::placeholder
+    {
+        font-size: 1.4em;
+        font-family: 'raleway';
+        text-align: center;
+    }
+
+    #info
+    {
+        justify-content:center;
+        font-size: 1.1em;
+    }
+    #butrech
+    {
+        justify-content: center;
+    }
+    .he
+    {
+        text-align: left;
+        margin-left: -22%;
+        font-size: 1.18em;
+    }
+    .he:nth-child(1) {
+        margin-top: -54px;
+        margin-right: 32px;
+        width: 139px;
+        padding-right: 8px;
+        padding-top: 33px;
+        padding-left: 10%;
+    }
+    .he:nth-child(2) 
+    {
+        margin-left: 78px;
+        margin-top: -54px;
+        margin-right:0px;
+        width: 119px;
+        padding-right: 47px;
+        padding-top: 33px;
+    }
+    .he:nth-child(3) 
+    {
+        margin-left: 69px;
+        margin-top: -51px;
+        margin-right: -50px;
+        width: 125px;
+        padding-right: 1px;
+        padding-top: 33px;
+        text-align: end;    
+    }
+    
+    #logo
+    {
+        margin-left: -2%;
+    }
+
+    .popula
+    {
+        height: auto;
+        width: fit-content;
+        margin-bottom: 2%;
+    }
+    #tp
+    {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #le3p
+    {
+        width: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #ichart
+    {
+        margin-left: -200%;
+    }
+    #lp
+    {
+        width: unset;        
+        padding-bottom: 4%;
+    }
+    
+       
+    #p2
+    {
+        order:-1;              
+    }
+
+    #p3
+    {
+        margin-left:2%;        
+    }
+
+    #h1 
+    {
+        background-image: url(../images/hebergements/bunkbedsmallt.jpg);
+    }
+
+    #h2 
+    {
+        background-image: url(../images/hebergements/camact.jpg);
+    }    
+    #h3 
+    {
+        background-image: url(../images/hebergements/lampt.jpg);
+    }
+    #h4 
+    {
+        background-image: url(../images/hebergements/mert.jpg);
+    }
+    #h5 
+    {
+        background-image: url(../images/hebergements/paniert.jpg);
+    }
+    #h6 
+    {
+        background-image: url(../images/hebergements/minat.jpg);
+    }
+    #actg2
+    {
+      margin-left: 0;  
+      margin-top: 5%;
+    }
+    #resul
+    {
+        font-size: 1.2em;
+    }
+    footer
+    {
+        width: 108%;
+    }
+   
+    
+    .footh3
+    {
+        width: fit-content;
+        margin-right: 261px;
+    }
+    #tactiv
+    {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #resul
+    {
+        justify-content: center;
+        margin-left: -6%;
+    }
+        
+    }
+
+    }
+
+}
+    
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
 {
     

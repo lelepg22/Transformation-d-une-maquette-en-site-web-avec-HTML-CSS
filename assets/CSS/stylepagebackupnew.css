@@ -1,0 +1,1484 @@
+/*--@font-face 
+{
+    font-family: 'ralewaythin';
+    src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+    font-family: 'ralewaythin', Verdana;
+}
+--*/
+
+header
+{
+    font-weight: bolder;
+    text-align: right;
+    margin-left: 4px;
+}
+
+#logo
+{
+    margin-top: -1%;
+    margin-bottom: -1%;
+    float: left;
+    width: 116px;
+    height: 54px;
+}
+
+nav
+{
+    margin-left: 7px;
+}
+
+#headul
+{
+    display: inline-flex;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited 
+{
+    text-decoration: none; 
+    color: initial;
+}
+
+body
+{
+    margin: 30px;
+    font-family: 'raleway';
+}
+
+h2
+{
+    font-weight: 900;
+}
+
+h3
+{
+    font-weight: 900;  
+}
+
+main
+{
+    margin-left: 20px;
+}
+
+
+.he:nth-child(1)
+{
+    margin-top: -54px;
+    margin-right: -56px;
+    width: 139px;
+    padding-right: 23px;
+    padding-top: 33px;  
+}
+
+.he:nth-child(2)
+{
+    margin-left: 74px;
+    margin-top: -54px;
+    margin-right: -18px;
+    width: 119px;
+    padding-right: 47px;
+    padding-top: 33px;
+    
+}
+
+.he:nth-child(3)
+{
+    margin-left: 20px;
+    margin-top: -54px;
+    margin-right: 6px;
+    width: 125px;
+    padding-right: 35px;
+    padding-top: 33px;
+
+}
+
+.he:nth-child(4)
+{
+    flex:0.3;
+    font-weight: bold;
+}
+
+.he:hover 
+{
+   border-top:1px solid #0065FC;   
+}
+
+.he:hover a
+{
+    color:#0065FC;
+}
+
+
+#sins
+{
+   color:#0065FC;   
+}
+
+
+#butrech
+{
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    width: 100%;
+    border-color:#F2F2F2;
+    margin-bottom: 15px;
+}
+
+#rech
+{
+    background-color: #0065FC;
+    border: 10px;
+    color: #FFFFFF;
+    padding: 15px;   
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+    border-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 18%;    
+    padding-top: 12%;
+
+}  
+#rech2
+{
+
+    margin-top: -4%;
+} 
+
+#rechr
+{
+    display: none;
+}
+
+#butmap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F2F2F2;   
+    height: 40px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 50px;
+    font-size: 0.8em;
+}
+
+#filtres
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.filtreb
+{
+    border:1px solid;
+    border-color:#F2F2F2;
+    border-radius:25px;    
+    height: 35px;
+    display: inline-flex;
+    margin-right: 15px;
+    align-items: center;
+
+}
+
+#fil
+{
+   margin-right: 15px; 
+}
+
+#fil2
+{
+    align-items: center;
+    display: flex;
+}
+
+.filtret
+{
+  
+     margin-right: 15px;     
+   
+}
+
+#fecotext
+{
+    margin-top:5%;
+}
+
+#mon
+{
+   align-items: unset;    
+
+}
+.filhover:hover
+{
+    background-color:#DEEBFF ;
+}
+
+#childt
+{
+    margin-right: 15px
+}
+
+#heartt
+{
+    margin-right: 15px
+} 
+
+#dogt
+{
+    margin-right: 15px
+}
+
+#monr
+{
+    margin-top:-2%;
+}
+
+.prondf
+{
+    background-color: #DEEBFF;
+    width: 39px;
+    height: 39px;  
+    align-items: center;
+    border-radius: 25px;
+    margin-right: 10px;
+    display:flex;
+    justify-content: center;
+    color: #0065FC;
+}
+
+#info
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-left: 4px;
+    
+}
+
+#bin
+{
+    width: 17px;
+    height: 17px;
+    align-items: center;
+    border-radius: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #F2F2F2;  
+    color: #0065FC; 
+    font-size: 0.7em;
+}
+
+#heberg
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-left:10px;
+}
+
+#gberg
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#hdisplay
+{
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+    border-radius:25px;
+    width: 66%;
+    margin-right: 45px;
+    display:flex;
+    margin-left: -5px;
+}
+
+#htitle
+{
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-bottom: 35px;
+    font-weight: 900; 
+}
+
+#ap
+{
+    margin-left: 60px;
+    font-weight: bolder;
+    margin-bottom:50px;
+    margin-top:-2%;
+}
+
+#form
+{
+    border:1px solid #F2F2F2;  
+    height: 40px;
+    width: 200px;
+    padding-left: 3%
+
+}
+#form::placeholder
+{
+    font-family: 'ralewaythin', Verdana;  
+    color: black; 
+    font-weight: bold ;   
+}
+
+.ht3
+{
+    margin-bottom: -2px;
+}
+
+.ht2
+{
+    margin-top:-7px;
+    color:#0065FC;
+}
+.stargraycolor
+{
+    color:#DEEBFF;
+}
+
+.prix
+{
+    font-weight:bold;
+}
+.prixbas
+{
+    font-weight: bold;
+}
+
+.hebergements
+{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;    
+    width: 320px;
+    height: 250px;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    margin-left: 40px;
+    margin-bottom: 11%;
+    background-color: rgb(148, 130, 130); 
+}
+
+.heberboit
+{
+    background-color: white; 
+    padding-left: 10px;       
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#h1
+{   
+    background-image: url(../images/hebergements/bunkbedsmall.jpg);
+}
+
+
+
+#h2
+{ 
+    background-image: url(../images/hebergements/camac.jpg);
+  
+}
+
+
+
+
+#h3
+{
+    background-image: url(../images/hebergements/lamp.jpg);
+   
+}
+
+
+
+#h4
+{
+    
+    background-image: url(../images/hebergements/mer.jpg);
+ 
+}
+
+
+
+#h5
+{
+    
+    background-image: url(../images/hebergements/panier.jpg);
+  
+}
+
+
+
+#h6
+{
+    
+    background-image: url(../images/hebergements/mina.jpg);
+
+}
+
+
+
+#spn
+{
+    display:inline-flex;
+}
+
+#asid
+{
+    flex-wrap: wrap;
+    background-color:#F2F2F2;
+    border-radius:25px;
+    display: flex;
+    width: 29%;   
+}
+
+#chart
+{
+    display:inline-flex;
+    align-items: center;
+
+}
+
+#ichart
+{
+   
+    font-size:1.4em;
+}
+
+
+#lp
+{
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    width:79%
+}
+
+#tp
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+#le3p
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+.popula
+{
+    height: 35%;
+    background-color: white;
+    border-radius: 25px;    
+    background-size: 170px 180px;
+    background-repeat: no-repeat;
+    border: solid 10px white;
+    display: flex;
+    margin-bottom: 10%;
+    width:103%
+}
+
+
+
+#p1
+{
+    
+    background-image: url(../images/hebergements/populaire1.jpg);
+  
+}
+
+.rpp1
+{
+    margin-left: 190px;
+}
+
+.imp1
+{
+    margin-top: 29%;
+    margin-left: 2%;
+    color:#0065FC;
+}
+
+#mc
+{
+    
+    padding-bottom: 0%;
+    margin-top: 20%;
+}
+
+#p2
+{
+   
+    background-image: url(../images/hebergements/populaire2.jpg);   
+}
+
+#p2pp
+{
+margin-left: 62%;
+width: 51%;
+margin-top:-2%;
+padding-bottom: 3%;
+}
+
+
+#p3
+{
+      background-image: url(../images/hebergements/populaire3.jpg);
+   
+}
+
+#resul
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 10px;
+    margin-bottom: 65px;
+}
+
+#activites
+{
+    margin-top: 65px;
+}
+
+#actg1
+{
+    display: flex;
+    flex-direction: column;
+    width: 817px;
+    height: 562px;
+    flex-wrap: wrap;
+}
+
+#tactiv
+{
+    margin-left: 8px;
+}
+
+.standactivities
+{
+    background-repeat: round;
+    border-radius: 25px;
+    border: solid 1px #F2F2F2;
+    width: 400px;
+}
+
+.bigact
+{   
+    height: 565px;    
+}
+
+.mact
+{  
+    height: 294px;
+    margin-bottom: 55px; 
+    margin-left: 61px;
+}
+
+.msact
+{   
+    height: 254px;
+    margin-bottom: 49px; 
+    margin-left: 61px;
+}
+
+.sact
+{   
+    height: 209px;
+    margin-left: 61px;
+}
+
+#act1
+{
+    background-image: url(../images/activites/vieux.jpg);
+   
+}
+
+
+.textbigact
+{
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 511px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: solid 1px #F2F2F2;
+    font-weight: bolder;
+}
+
+#act2
+{
+    background-image: url(../images/activites/fort.jpg);  
+  
+}
+
+.txtsactmact
+{
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: solid 1px #F2F2F2;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+#pa2
+{       
+    margin-top: 236px;  
+   
+}
+
+#act3
+{
+    background-image:url(../images/activites/ile.jpg);
+  
+}
+
+#pa3
+{   
+    margin-top: 155px;   
+}
+
+#actg2
+{  
+    display: flex;
+    flex-direction: column;
+    width: 817px;
+    height: 562px;
+    flex-wrap: wrap;
+    margin-left: 107px;
+}
+
+#act4
+{
+    background-image: url(../images/activites/park.jpg);    
+
+}
+
+
+#act5
+{
+    background-image: url(../images/activites/notre.jpg);  
+   
+}
+
+.textactms
+{
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom: solid 1px #F2F2F2;
+    margin-top: 197px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+#act6
+{
+    background-image:url(../images/activites/long.jpg);
+    margin-bottom: 0;     
+    
+}
+
+
+
+footer
+{
+    display: inline-flex;
+    text-align: inherit;
+    background-color: #F2F2F2;
+    width: 104%;
+    margin-left: -48px;
+    height: 190px;
+    margin-bottom: -32px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-right:4px;
+}
+
+ul
+{
+    margin-left: -40px;
+    margin-top: 24px;
+}
+
+.lifoot
+{
+    margin-top:15px;
+}
+
+.footh3
+{
+   font-weight: bold;
+   margin-right: 497px;
+   margin-top: 50px;
+   width: 35%;
+
+}
+
+#fap
+{
+   margin-left: 71px;
+}
+
+.mf
+{
+    width: 33%;
+}
+
+#astf
+    
+{
+        width:10%
+}
+
+
+
+@media screen and (max-width:1280px)
+{
+    header
+    {
+        background-size: 28%;   
+        margin-left: 0;    
+    }
+    
+    #headul
+    {        
+        margin-top: -9%;
+    }
+
+    #logo
+    {
+        width: 229px;
+        height: 107px;
+        margin-bottom: -15%;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+        
+    nav
+    {
+        width: 227%;
+        height: 956px;
+        margin-left: -16px;
+    }
+    
+       
+    .he:nth-child(1)
+    {
+        font-size: 2.5em;
+        padding-top: 31%;
+        margin-top: -15px;
+        border-bottom: 7px solid #F2F2F2;
+        width: 50%;
+        padding-left: 33%;
+        padding-right: 15%;
+        margin-left: -17%;
+        margin-right: -12%;
+    }
+   
+    .he:nth-child(2) 
+    {
+        font-size: 2.5em;
+        padding-top: 31%;
+        margin-top: -12px;
+        width: 50%;
+        border-bottom: 7px solid #F2F2F2;
+        padding-left: 15%;
+        padding-right: 34%;
+        padding-bottom: 6%;
+    }
+
+    .he:nth-child(3)
+    {
+        padding-bottom: 3%;
+        margin-left: -36%;
+        margin-top: 0%;
+        margin-bottom: 52px;
+        font-size: 2.2em;
+        padding-right: 9%;
+        padding-left: 6%;
+        height: 100%;    
+    }
+
+    .he:hover
+    {
+         border-bottom:7px solid #0065FC;
+         border-top:none;
+    }
+
+    #sins
+    {
+    border:none;
+    }
+
+    #reve
+    {
+        width: 82%;
+        font-size: 3.0em;
+        margin-top: 8%;
+        margin-left: 5%;
+    } 
+
+    #tpr
+    {
+        margin-left:6%;
+        margin-top:-1%;
+        font-size: 2.34em;
+    }
+
+    #butmap
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        height: 85px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        width: 98px;  
+        font-size: 1.5em;
+    }
+
+    #spn
+    {
+        margin-top:1%;
+        width: 87%;
+        margin-left: 2%;
+    }
+  
+
+    #form
+    {
+        border: 1px solid #F2F2F2;
+        height: 84px;
+        width: 667px;
+        padding-left: 7%;
+        padding-top: 2%;
+        font-size: 1em;
+    }
+
+    #form::placeholder
+    {
+        font-size: 2.3em;
+        font-family: 'ralewaythin', Verdana;
+    }
+
+    #rech
+    
+    {
+        display: none
+    }
+
+    #butrech
+    {
+        margin-top: 7%;
+        margin-left: 2%;
+    }
+
+    #rech2
+    {
+        background-color: #0065FC;
+        border: 10px;
+        color: #FFFFFF;
+        padding: 15px;
+        vertical-align: middle;
+        border-radius: 26px;
+        width: 52px;
+        height: 44px;
+        padding-left: 25px;
+        padding-top: 25px;
+        margin-top: 0;
+        font-size: 1.9em;
+    }
+    #rechr
+    {
+        display: contents;
+    }
+   
+
+    #filtres 
+    {
+        
+        align-items: end;
+       
+        flex-wrap: wrap;
+        margin-left: 4%;
+    }
+
+    #fil
+    {
+        font-size: xx-large;
+    }
+
+    #fil2 
+
+    {        
+        flex-wrap: wrap;
+    }
+
+    #fecotext
+    {
+        margin-top: 0%;
+    }
+
+    .filtret
+    {
+        font-size: 2em;
+        margin-top: 0%;
+        
+    }
+    .filtreb
+    {
+        border: 4px solid;
+        border-color: #F2F2F2;
+        align-items: center;
+        border-radius: 34px;
+        height: 74px;
+        display: inline-flex;
+    }
+
+    #mon
+    {        
+        width: 38%;
+        margin-right: 15px;
+        align-items: center;
+    }
+
+    #monr
+    {
+        margin-top: 0;   
+        width: 28%;     
+    }
+
+    
+    #childr
+    {
+        width: 31%;
+    }
+
+    #child
+    {
+        
+        width: 33%;
+        margin-right: 23px;
+        margin-left: 1%;
+    }
+
+    #childt
+    {
+        font-size: 2em;
+    }
+
+    #heartr
+    {
+        width: 27%;
+    }
+
+    #heart
+    {
+      
+        width: 38%;
+        margin-top: 3%;
+        margin-right: 12%;
+    }
+
+    
+
+    #heartt
+    {
+        font-size: 2em;
+    }
+
+    #dog
+    {
+    
+        width: 47%;
+        margin-top: 3%;
+        margin-left: 1%;
+    }
+
+    .prondf
+    {
+        width: 22%;
+        height: 120%;
+        align-items: center;
+        border-radius: 57px;
+        margin-right: 28px;       
+        justify-content: center;
+        margin-left: -2%; 
+        background-color: #DEEBFF;    
+        font-size: 2em;
+    
+    }
+    
+    
+    #dogt
+    {
+        font-size:2em;
+    }
+
+    #info
+    {
+        font-size: 1.8em;
+        margin-left: 4%;
+        margin-top: 5%; 
+            
+    }
+   
+
+    #bin
+    {
+        width: 5%;
+        height: 42px;
+        align-items: center;
+        border-radius: 25px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+        border-color: #F2F2F2;
+      
+    }
+
+    #gberg
+    {       
+        flex-direction: column-reverse;        
+    }
+
+    #hdisplay
+    {
+                      
+        width: auto;
+        margin-right: auto;
+        background-color: white;
+        margin-left: 13px;
+    }
+
+    #asid
+    {            
+        border-radius: 0;         
+        margin-right: 0;
+        width: 243%;
+        margin-left: -52px;
+    }
+
+    #tp
+    {    
+        margin-left: 0px;
+        font-size: 3em;       
+        padding-left: 0px;
+    }
+
+    #chart
+    {
+        margin-top: 4%;
+        width: 118%;
+    }
+
+    #ichart 
+    {
+        font-size:2.1em;
+        margin-left: -257%
+    }
+    
+
+    #le3p 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rpp1
+    {
+        margin-left: 81%;
+        width: 100%;    
+    }
+
+    .imp1
+    {
+        margin-top: 11% ;
+        font-size: 1.5em;
+    }
+
+    #mc
+    {
+        margin-top: 8%;
+    }
+
+    #mc2
+    {
+        margin-left: 53%;
+        width: 74%;
+    }
+    .popula
+    {
+        width: 115%;
+        height: 307px;        
+        background-size: 336px 304px;       
+        margin-bottom: 7%;
+        margin-left: -18px;
+    }
+
+  
+    #p2pp
+    {
+        margin-left: 53%;
+    }
+    
+
+    #hg
+    {
+        margin-top: 8%;
+        margin-left: -5px;
+        font-size:3em;
+    }
+    .hp3
+    {
+        font-size: 2.7em;
+        margin-top: 6%;
+        margin-left: 2%;
+    }
+
+    .hp4
+    {
+        font-size:2em;
+        margin-left: 2%;
+        width: 100%;
+
+    }
+   
+
+  
+    .ht2
+    {
+        font-size: 1.5em;
+        margin-left: 2%;
+        padding-bottom: 1%;
+    }
+
+    .ht3
+    {
+        margin-bottom: -15px;
+        font-size: 2.5em;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .heberboit
+    {
+        width: 100%;        
+        padding-left: 10px;            
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;   
+    }    
+    
+    .hebergements
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 40px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;          
+    }
+
+    #h1
+    {   
+        
+        background-image: url(../images/hebergements/bunkbedr.jpg);  
+    }
+
+   
+     #h2
+    {
+        
+        background-image:url(../images/hebergements/camacr2.jpg)
+    }
+
+     #h3
+    {
+      
+        background-image:url(../images/hebergements/lampr.jpg) 
+    }    
+
+     #h4
+    {
+        
+        background-image: url(../images/hebergements/merr.jpg);
+    }
+
+     #h5
+    {
+       
+        background-image: url(../images/hebergements/panierr.jpg); 
+    }
+
+     #h6
+    {
+       
+        background-image: url(../images/hebergements/minar.jpg);
+    }
+
+    #htitle
+    {
+        font-size: 3em;
+        margin-left: 0;
+    }
+
+    #ap
+    {
+        margin-left: 10px;
+        margin-top: auto;
+        margin-bottom: 0;
+        font-size: 2.3em;
+    }
+
+    #tactiv
+    {
+        font-size: 3em;
+        margin-top: 14%;
+        margin-bottom: 7%;
+        margin-left: 0;
+        width: max-content;
+    }
+
+    #activites
+    {
+        margin-top: 50px;
+    }
+
+    #resul    
+    {
+        
+        flex-direction: column;
+        
+    }
+
+    #actg1
+    {
+        width: auto;
+        height: auto;
+        flex-wrap: initial;
+    }
+
+    #actg2
+    {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        flex-wrap: initial;
+    }
+    
+    .standactivities
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
+    }
+
+    #act1
+    {
+      
+        background-image: url(../images/activites/vieuxp.jpg);
+    }
+
+    .textbigact
+    {
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
+    .app
+    {
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+
+     #act2
+    {
+       
+        background-image: url(../images/activites/fortp.jpg);
+    }
+
+    .txtsactmact
+    {
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
+    #pa2
+    {
+        margin-top: 41%;
+
+    }
+
+    #act3
+    {
+       
+        background-image: url(../images/activites/ilep.jpg);
+    }
+
+    #pa3
+    {
+        margin-top: 41%;
+    }
+
+    #act4
+    {
+      
+        background-image: url(../images/activites/parkp.jpg);
+    }   
+
+    #act5
+    {
+       
+        background-image: url(../images/activites/notrep.jpg);
+    }
+
+   .textactms
+    {
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
+    #act6
+    {
+       
+       background-image: url(../images/activites/longp.jpg);
+      
+       
+    }
+    
+
+    footer
+    {
+        width:232%;
+        margin-left:-38px;
+        height: auto;        
+        flex-direction: column;        
+    }
+
+    #fap
+    {
+      margin-left: 5%; 
+      margin-bottom: 2%;  
+      margin-top:4%;
+      font-weight: 500;
+        
+    }
+
+    .footh3
+    {
+        margin-right:0;        
+        font-size: 2.4em;
+        width: 43%;
+    }
+
+    .mf
+    {
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-weight: 500;
+        width:96%;
+    }
+
+    #astf
+    {
+        width: auto;
+    }
+    
+    .lifoot
+    {
+        font-size:2.2em;
+    }
+
+@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
+{
+    
+     .imp2  
+        {
+                display: flex;
+                margin-top: 10%;
+                margin-left: 3%;
+        }        
+        
+        .lifoot 
+        {
+                font-size: 2em;
+        }
+}
+
+}
