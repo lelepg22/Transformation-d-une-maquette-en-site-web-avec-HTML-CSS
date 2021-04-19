@@ -1,59 +1,77 @@
-@font-face 
-{
-    font-family: 'ralewaythin_italic';
-    src: url('raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face 
+/*--@font-face 
 {
     font-family: 'ralewaythin';
     src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
          url('font/raleway-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 *
 {
     font-family: 'ralewaythin', Verdana;
 }
+--*/
 
 header
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     font-weight: bolder;
-    background-image:url(images/logo/reservia.svg);
-    background-repeat: no-repeat;
+    text-align: right;
+    margin-left: 4px;
+}
+
+#logo
+{
+    margin-top: -1%;
+    margin-bottom: -1%;
+    float: left;
+    width: 116px;
+    height: 54px;
+}
+
+nav
+{
+    margin-left: 7px;
+}
+
+#headul
+{
+    display: inline-flex;
+}
+
+ul
+{
+    list-style-type: none;
 }
 
 a:link
 {
     text-decoration: none;
+    color: inherit;
+}
+
+a:visited 
+{
+    text-decoration: none; 
+    color: initial;
 }
 
 body
 {
     margin: 30px;
+    font-family: 'raleway';
 }
 
 h2
 {
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 h3
 {
-    font-weight: bolder;  
+    font-weight: 900;  
 }
 
-#blocpage
+main
 {
     margin-left: 20px;
 }
@@ -61,20 +79,32 @@ h3
 
 .he:nth-child(1)
 {
-   margin-left: 1394px;
-  
+    margin-top: -54px;
+    margin-right: -56px;
+    width: 139px;
+    padding-right: 23px;
+    padding-top: 33px;  
 }
 
 .he:nth-child(2)
 {
-   margin-left: 74px;
+    margin-left: 74px;
+    margin-top: -54px;
+    margin-right: -18px;
+    width: 119px;
+    padding-right: 47px;
+    padding-top: 33px;
     
 }
 
 .he:nth-child(3)
 {
-    margin-right: 62px;
-    margin-left: 71px;
+    margin-left: 20px;
+    margin-top: -54px;
+    margin-right: 6px;
+    width: 125px;
+    padding-right: 35px;
+    padding-top: 33px;
 
 }
 
@@ -94,10 +124,12 @@ h3
     color:#0065FC;
 }
 
+
 #sins
 {
-   color:#0065FC;
+   color:#0065FC;   
 }
+
 
 #butrech
 {
@@ -121,9 +153,20 @@ h3
     border-radius: 0;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    width: 110px;
-    height: 40px;
-}   
+    height: 18%;    
+    padding-top: 12%;
+
+}  
+#rech2
+{
+
+    margin-top: -4%;
+} 
+
+#rechr
+{
+    display: none;
+}
 
 #butmap
 {
@@ -135,8 +178,8 @@ h3
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     width: 50px;
+    font-size: 0.8em;
 }
-
 
 #filtres
 {
@@ -147,64 +190,49 @@ h3
     margin-bottom: 20px;
 }
 
+.filtreb
+{
+    border:1px solid;
+    border-color:#F2F2F2;
+    border-radius:25px;    
+    height: 35px;
+    display: inline-flex;
+    margin-right: 15px;
+    align-items: center;
+
+}
+
 #fil
 {
    margin-right: 15px; 
 }
 
-#mont
+#fil2
+{
+    align-items: center;
+    display: flex;
+}
+
+.filtret
 {
   
-     margin-right: 15px;  
+     margin-right: 15px;     
    
+}
+
+#fecotext
+{
+    margin-top:5%;
 }
 
 #mon
 {
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
+   align-items: unset;    
 
 }
-
-#moni
+.filhover:hover
 {
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 39px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
-}
-
-#child
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
-
-}
-
-#childi
-{
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 39px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
+    background-color:#DEEBFF ;
 }
 
 #childt
@@ -212,51 +240,22 @@ h3
     margin-right: 15px
 }
 
-#heart
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex;
-    margin-right: 15px;
-}
-
-#hearti
-{
-    background-color: #DEEBFF;
-    width: 39px;
-    height: 39px;  
-    align-items: center;
-    border-radius: 25px;
-    margin-right: 10px;
-    display:flex;
-    justify-content: center;
-}
-
 #heartt
 {
     margin-right: 15px
-}
-
-#dog
-{
-    border:1px solid;
-    border-color:#F2F2F2;
-    align-items: center;
-    border-radius:25px;    
-    height: 35px;
-    display: inline-flex; 
-    margin-right: 15px;
-}
+} 
 
 #dogt
 {
     margin-right: 15px
 }
 
-#dogi
+#monr
+{
+    margin-top:-2%;
+}
+
+.prondf
 {
     background-color: #DEEBFF;
     width: 39px;
@@ -266,6 +265,7 @@ h3
     margin-right: 10px;
     display:flex;
     justify-content: center;
+    color: #0065FC;
 }
 
 #info
@@ -274,6 +274,8 @@ h3
     flex-direction:row;
     align-items: center;
     margin-bottom: 17px;
+    margin-left: 4px;
+    
 }
 
 #bin
@@ -286,7 +288,9 @@ h3
     display: flex;
     justify-content: center;
     border: 1px solid;
-    border-color: #F2F2F2;   
+    border-color: #F2F2F2;  
+    color: #0065FC; 
+    font-size: 0.7em;
 }
 
 #heberg
@@ -298,22 +302,6 @@ h3
     margin-left:10px;
 }
 
-#troisp
-{ 
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-#troisd
-{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
-
 #gberg
 {
     display: flex;
@@ -321,17 +309,18 @@ h3
     flex-direction: row;
 }
 
-#h2c
+#hdisplay
 {
     flex-wrap: wrap;
     background-color:#F2F2F2;
     border-radius:25px;
-    width: 65%;
-    margin-right: 50px;
+    width: 66%;
+    margin-right: 45px;
     display:flex;
+    margin-left: -5px;
 }
 
-#hg
+#htitle
 {
     margin-top: 50px;
     margin-left: 55px;
@@ -344,6 +333,7 @@ h3
     margin-left: 60px;
     font-weight: bolder;
     margin-bottom:50px;
+    margin-top:-2%;
 }
 
 #form
@@ -351,7 +341,14 @@ h3
     border:1px solid #F2F2F2;  
     height: 40px;
     width: 200px;
+    padding-left: 3%
 
+}
+#form::placeholder
+{
+    font-family: 'ralewaythin', Verdana;  
+    color: black; 
+    font-weight: bold ;   
 }
 
 .ht3
@@ -362,146 +359,95 @@ h3
 .ht2
 {
     margin-top:-7px;
+    color:#0065FC;
+}
+.stargraycolor
+{
+    color:#DEEBFF;
+}
+
+.prix
+{
+    font-weight:bold;
+}
+.prixbas
+{
+    font-weight: bold;
+}
+
+.hebergements
+{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;    
+    width: 320px;
+    height: 250px;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+    margin-left: 40px;
+    margin-bottom: 11%;
+    background-color: rgb(148, 130, 130); 
+}
+
+.heberboit
+{
+    background-color: white; 
+    padding-left: 10px;       
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #h1
-{
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 25px;
-    background-image: url(images/hebergements/bunkbedsmall.jpg);
-    width: 320px;
-    height: 250px;
-    background-repeat: round;
-    border: 10px solid white;
-    margin-left: 40px;
+{   
+    background-image: url(../images/hebergements/bunkbedsmall.jpg);
 }
 
-#h1x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
 
-}
-#h1xx
-{
-    background-color: white;
-
-}
 
 #h2
-{
-    display: flex;
-    flex-direction: column-reverse;
-    background-image: url(images/hebergements/camac.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+{ 
+    background-image: url(../images/hebergements/camac.jpg);
+  
 }
 
-#h2x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 
 #h3
 {
-    display: flex;
-    flex-direction: column-reverse;
-    background-image: url(images/hebergements/lamp.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+    background-image: url(../images/hebergements/lamp.jpg);
+   
 }
 
-#h3x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h4
 {
-    display: flex;
-    flex-direction: column-reverse;
-    background-image: url(images/hebergements/mer.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+    
+    background-image: url(../images/hebergements/mer.jpg);
+ 
 }
 
-#h4x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h5
 {
-    display: flex;
-    flex-direction: column-reverse;
-    background-image: url(images/hebergements/panier.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+    
+    background-image: url(../images/hebergements/panier.jpg);
+  
 }
 
-#h5x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #h6
 {
-    display: flex;
-    flex-direction: column-reverse;
-    background-image: url(images/hebergements/mina.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    width: 320px;
-    height: 250px;
-    border: 10px solid white;
-    margin-left: 40px;
+    
+    background-image: url(../images/hebergements/mina.jpg);
+
 }
 
-#h6x
-{
-    background-color: white; 
-    padding-left: 10px;       
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 #spn
 {
@@ -514,8 +460,7 @@ h3
     background-color:#F2F2F2;
     border-radius:25px;
     display: flex;
-    width: 29%;
-    margin-right: 20px;
+    width: 29%;   
 }
 
 #chart
@@ -527,24 +472,27 @@ h3
 
 #ichart
 {
-    margin-left: 1040%;
+   
+    font-size:1.4em;
 }
+
 
 #lp
 {
     margin-top: 10px;
     margin-right: 12px;
-    margin-left: 20px;
+    margin-left: 7%;
     display: flex;
     flex-direction: column;
+    width:79%
 }
 
 #tp
 {
-    margin-left: 5%;
     margin-bottom: 40px;
     margin-top: 40px;
     font-weight: bolder;
+    width: 100%;
 }
 
 #le3p
@@ -554,20 +502,26 @@ h3
     width: 100%;
     height: 70%;
 }
-
-#p1
+.popula
 {
-    width: 95%;
     height: 35%;
     background-color: white;
-    border-radius: 25px;
-    background-image: url(images/hebergements/populaire1.jpg);
+    border-radius: 25px;    
     background-size: 170px 180px;
     background-repeat: no-repeat;
     border: solid 10px white;
     display: flex;
     margin-bottom: 10%;
-    margin-left: 6%;
+    width:103%
+}
+
+
+
+#p1
+{
+    
+    background-image: url(../images/hebergements/populaire1.jpg);
+  
 }
 
 .rpp1
@@ -579,36 +533,35 @@ h3
 {
     margin-top: 29%;
     margin-left: 2%;
+    color:#0065FC;
+}
+
+#mc
+{
+    
+    padding-bottom: 0%;
+    margin-top: 20%;
 }
 
 #p2
 {
-    width: 96%;
-    height: 35%;
-    background-color: white;
-    border-radius: 25px;
-    background-image: url(images/hebergements/populaire2.jpg);
-    background-size: 170px 180px;
-    background-repeat: no-repeat;
-    border: solid 10px white;
-    display: flex;
-    margin-bottom: 10%;
-    margin-left: 6%;
+   
+    background-image: url(../images/hebergements/populaire2.jpg);   
 }
+
+#p2pp
+{
+margin-left: 62%;
+width: 51%;
+margin-top:-2%;
+padding-bottom: 3%;
+}
+
 
 #p3
 {
-    width: 96%;
-    height: 35%;
-    background-color: white;
-    border-radius: 25px;
-    background-image: url(images/hebergements/populaire3.jpg);
-    background-size: 170px 180px;
-    background-repeat: no-repeat;
-    border: solid 10px white;
-    display: flex;
-    margin-bottom: 10%;
-    margin-left: 6%;
+      background-image: url(../images/hebergements/populaire3.jpg);
+   
 }
 
 #resul
@@ -619,12 +572,12 @@ h3
     margin-bottom: 65px;
 }
 
-#ms
+#activites
 {
     margin-top: 65px;
 }
 
-#r3u
+#actg1
 {
     display: flex;
     flex-direction: column;
@@ -633,23 +586,57 @@ h3
     flex-wrap: wrap;
 }
 
-#act1
+#tactiv
 {
-    background-image: url(images/activites/vieux.jpg);
+    margin-left: 8px;
+}
+
+.standactivities
+{
     background-repeat: round;
-    width: 400px;
-    height: 565px;
     border-radius: 25px;
     border: solid 1px #F2F2F2;
+    width: 400px;
+}
+
+.bigact
+{   
+    height: 565px;    
+}
+
+.mact
+{  
+    height: 294px;
+    margin-bottom: 52px; 
+    margin-left: 61px;
+}
+
+.msact
+{   
+    height: 254px;
+    margin-bottom: 49px; 
+    margin-left: 61px;
+}
+
+.sact
+{   
+    height: 209px;
+    margin-left: 61px;
+}
+
+#act1
+{
+    background-image: url(../images/activites/vieux.jpg);
+   
 }
 
 
-#pa1
+.textbigact
 {
     padding-top: 20px;
     background-color: white;
     margin-top: 511px;
-    padding-left: 10px;
+    padding-left: 18px;
     padding-bottom: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -659,53 +646,40 @@ h3
 
 #act2
 {
-    background-image: url(images/activites/fort.jpg);  
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 282px;
-    margin-bottom: 74px;
-    margin-left: 61px;
-}   
+    background-image: url(../images/activites/fort.jpg);  
+  
+}
 
-#pa2
-{   
+.txtsactmact
+{
     background-color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 254px;
-    padding-left: 10px;
+    padding-left: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bolder;
 }
 
+#pa2
+{       
+    margin-top: 236px;  
+   
+}
+
 #act3
 {
-    background-image:url(images/activites/ile.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 202px;
-    margin-left: 61px;
+    background-image:url(../images/activites/ile.jpg);
+  
 }
 
 #pa3
-{
-    background-color: white;
-    margin-top: 155px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding-top: 15px;
-    padding-bottom: 17px;
-    padding-left: 12px;
-    font-weight: bolder;
+{   
+    margin-top: 155px;   
 }
 
-#r3u2
+#actg2
 {  
     display: flex;
     flex-direction: column;
@@ -717,48 +691,25 @@ h3
 
 #act4
 {
-    background-image: url(images/activites/park.jpg);
-    background-repeat: round;
-    width: 400px;
-    height: 565px;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
+    background-image: url(../images/activites/park.jpg);    
 
 }
 
-#pa4
-{
-    padding-top: 20px;
-    background-color: white;
-    margin-top: 511px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom: solid 1px #F2F2F2;
-    font-weight: bolder;
-}
 
 #act5
 {
-    background-image: url(images/activites/notre.jpg);  
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 242px;
-    margin-bottom: 68px; 
-    margin-left: 61px;
+    background-image: url(../images/activites/notre.jpg);  
+   
 }
 
-#pa5
+.textactms
 {
     background-color: white;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom: solid 1px #F2F2F2;
-    margin-top: 206px;
-    padding-left: 10px;
+    margin-top: 197px;
+    padding-left: 18px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bolder;
@@ -766,38 +717,25 @@ h3
 
 #act6
 {
-    background-image:url(images/activites/long.jpg);
-    background-repeat: round;
-    border-radius: 25px;
-    border: solid 1px #F2F2F2;
-    width: 400px;
-    height: 242px;
-    margin-left: 61px;    
+    background-image:url(../images/activites/long.jpg);
+    margin-bottom: 0;     
+    
 }
 
-#pa6
-{
-    background-color: white;
-    margin-top: 197px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    padding-top: 15px;
-    padding-bottom: 17px;
-    padding-left: 12px; 
-    font-weight: bolder;
-}
+
 
 footer
 {
     display: inline-flex;
     text-align: inherit;
     background-color: #F2F2F2;
-    width: 1960px;
+    width: 104%;
     margin-left: -48px;
     height: 190px;
     margin-bottom: -32px;
     padding-bottom: 20px;
     font-weight: bold;
+    padding-right:4px;
 }
 
 ul
@@ -806,7 +744,7 @@ ul
     margin-top: 24px;
 }
 
-li
+.lifoot
 {
     margin-top:15px;
 }
@@ -816,40 +754,152 @@ li
    font-weight: bold;
    margin-right: 497px;
    margin-top: 50px;
+   width: 35%;
 
 }
 
 #fap
 {
-   margin-left: 67px;
+   margin-left: 71px;
+}
+
+.mf
+{
+    width: 33%;
+}
+
+#astf
+    
+{
+        width:10%
 }
 
 
-@media screen and (max-width: 1280px)
-{
 
-    .he:nth-child(1)
+@media screen and (max-width:667px)
+{
+    header
     {
-        margin-left: 38px;
-        margin-top: 59px;
+        background-size: 28%;   
+        margin-left: 0;    
     }
 
+    #logo
+    {
+        width: 229px;
+        height: 107px;
+        margin-bottom: -15%;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+        
+    nav
+    {
+        width: auto;
+        height: 956px;
+        margin-left: 0;
+    }
+    
+       
+    .he:nth-child(1)
+    {
+        font-size: 2.5em;
+        padding-top: 31%;
+        margin-top: -15px;
+        border-bottom: 7px solid #F2F2F2;
+        width: 50%;
+        padding-left: 25%;
+        padding-right: 12%;
+        margin-left: -57%;
+        margin-right: -12%;
+    }
+   
     .he:nth-child(2) 
     {
-        margin-left: 109px;
+        font-size: 2.5em;
+        padding-top: 31%;
+        margin-top: -12px;
+        width: 50%;
+        border-bottom: 7px solid #F2F2F2;
+        padding-left: 5%;
+        padding-right: 26%;
+        padding-bottom: 6%;
     }
 
     .he:nth-child(3)
     {
-        margin-right: 74px;
-        margin-left: -11px;
-        margin-bottom: 50px;
+        padding-bottom: 3%;
+        margin-left: -51%;
+        margin-top: 0%;
+        margin-bottom: 52px;
+        font-size: 8.2vw;
+       
+        
+    }
+
+    .he:hover
+    {
+         border-bottom:7px solid #0065FC;
+         border-top:none;
+    }
+
+    #sins
+    {
+    border:none;
     }
 
     #reve
     {
-        width: 343px; 
+        width: 82%;
+        font-size: 3.0em;
+        margin-top: 8%;
+        margin-left: 5%;
     } 
+
+    #tpr
+    {
+        margin-left:6%;
+        margin-top:-1%;
+        font-size: 2.34em;
+    }
+
+    #butmap
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        height: 85px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        width: 98px;  
+        font-size: 1.5em;
+    }
+
+    #spn
+    {
+        margin-top:1%;
+        width: 87%;
+        margin-left: 2%;
+    }
+  
+
+    #form
+    {
+        border: 1px solid #F2F2F2;
+        height: 84px;
+        width: 667px;
+        padding-left: 7%;
+        padding-top: 2%;
+        font-size: 1em;
+    }
+
+    #form::placeholder
+    {
+        font-size: 2.3em;
+        font-family: 'ralewaythin', Verdana;
+    }
 
     #rech
     
@@ -857,77 +907,218 @@ li
         display: none
     }
 
+    #butrech
+    {
+        margin-top: 7%;
+        margin-left: 2%;
+    }
+
     #rech2
     {
-        background-image: url(images/buttons/search.png);    
         background-color: #0065FC;
         border: 10px;
         color: #FFFFFF;
-        padding: 15px;   
-        text-decoration: none;
-        font-size: 14px;
+        padding: 15px;
         vertical-align: middle;
-        border-radius: 15px;
-        width: 17px;
-        height: 10px;
-        background-repeat: no-repeat;
-        background-position: center;
+        border-radius: 26px;
+        width: 52px;
+        height: 44px;
+        padding-left: 25px;
+        padding-top: 25px;
+        margin-top: 0;
+        font-size: 1.9em;
     }
+    #rechr
+    {
+        display: contents;
+    }
+   
 
     #filtres 
     {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-weight: bold;
-        margin-bottom: 20px;
+        
+        align-items: end;
+       
         flex-wrap: wrap;
+        margin-left: 4%;
+    }
+
+    #fil
+    {
+        font-size: xx-large;
     }
 
     #fil2 
 
-    {
-        display: flex;
+    {        
         flex-wrap: wrap;
+    }
+
+    #fecotext
+    {
+        margin-top: 0%;
+    }
+
+    .filtret
+    {
+        font-size: 2em;
+        margin-top: 0%;
+        
+    }
+    .filtreb
+    {
+        border: 4px solid;
+        border-color: #F2F2F2;
+        align-items: center;
+        border-radius: 34px;
+        height: 74px;
+        display: inline-flex;
+    }
+
+    #mon
+    {        
+        width: 38%;
+        margin-right: 15px;
+        align-items: center;
+    }
+
+    #monr
+    {
+        margin-top: 0;   
+        width: 28%;     
+    }
+
+    
+    #childr
+    {
+        width: 31%;
+    }
+
+    #child
+    {
+        
+        width: 33%;
+        margin-right: 23px;
+        margin-left: 1%;
+    }
+
+    #childt
+    {
+        font-size: 2em;
+    }
+
+    #heartr
+    {
+        width: 27%;
+    }
+
+    #heart
+    {
+      
+        width: 38%;
+        margin-top: 3%;
+        margin-right: 12%;
+    }
+
+    
+
+    #heartt
+    {
+        font-size: 2em;
+    }
+
+    #dog
+    {
+    
+        width: 47%;
+        margin-top: 3%;
+        margin-left: 1%;
+    }
+
+    .prondf
+    {
+        width: 22%;
+        height: 120%;
+        align-items: center;
+        border-radius: 57px;
+        margin-right: 28px;       
+        justify-content: center;
+        margin-left: -2%; 
+        background-color: #DEEBFF;    
+        font-size: 2em;
+    
+    }
+    
+    
+    #dogt
+    {
+        font-size:2em;
+    }
+
+    #info
+    {
+        font-size: 1.8em;
+        margin-left: 4%;
+        margin-top: 5%; 
+            
+    }
+   
+
+    #bin
+    {
+        width: 5%;
+        height: 42px;
+        align-items: center;
+        border-radius: 25px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+        border-color: #F2F2F2;
+      
     }
 
     #gberg
-    {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column-reverse;
-        
+    {       
+        flex-direction: column-reverse;        
     }
 
-    #h2c
+    #hdisplay
     {
-        flex-wrap: wrap;
-        border-radius: 25px;
-        display: flex;
+                      
         width: auto;
         margin-right: auto;
         background-color: white;
+        margin-left: 0;
     }
 
     #asid
-    {
-        flex-wrap: wrap;
-        background-color: #F2F2F2;
-        border-radius: 25px;
-        display: flex;    
-        margin-right: 20px;
-        width: auto;
+    {            
+        border-radius: 0;         
+        margin-right: 0;
+        width: 109%;
+        margin-left: -52px;
     }
 
     #tp
+    {    
+        margin-left: 0px;
+        font-size: 3em;       
+        padding-left: 0px;
+    }
+
+    #chart
     {
-        margin-left: 10px;
+        margin-top: 4%;
+        width: 118%;
     }
 
     #ichart 
     {
-        margin-left: 111px;
+        font-size:2.1em;
+        margin-left: -257%
     }
+    
 
     #le3p 
     {
@@ -935,247 +1126,587 @@ li
         flex-direction: column;
     }
 
-    #p1 
+    .rpp1
     {
-        width: 92%;
-        height: 35%;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(images/hebergements/populaire1.jpg);
-        background-size: 170px 180px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
-        margin-bottom: 10%;
-        margin-left: 0;
+        margin-left: 81%;
+        width: 100%;    
     }
 
-     #p2 
+    .imp1
     {
-        width: 92%;
-        height: 35%;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(images/hebergements/populaire2.jpg);
-        background-size: 170px 180px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
-        margin-bottom: 10%;
-        margin-left: 0;
+        margin-top: 11% ;
+        font-size: 1.5em;
     }
 
-     #p3 
+    #mc
     {
-        width: 92%;
-        height: 35%;
-        background-color: white;
-        border-radius: 25px;
-        background-image: url(images/hebergements/populaire3.jpg);
-        background-size: 170px 180px;
-        background-repeat: no-repeat;
-        border: solid 10px white;
-        display: flex;
-        margin-bottom: 10%;
-        margin-left: 0;
+        margin-top: 8%;
     }
+
+    #mc2
+    {
+        margin-left: 53%;
+        width: 74%;
+    }
+    .popula
+    {
+        width: 115%;
+        height: 307px;        
+        background-size: 336px 304px;       
+        margin-bottom: 7%;
+        margin-left: -18px;
+    }
+
+  
+    #p2pp
+    {
+        margin-left: 53%;
+    }
+    
 
     #hg
     {
-        margin-left: 15px;
+        margin-top: 8%;
+        margin-left: -5px;
+        font-size:3em;
+    }
+    .hp3
+    {
+        font-size: 2.7em;
+        margin-top: 6%;
+        margin-left: 2%;
+    }
+
+    .hp4
+    {
+        font-size:2em;
+        margin-left: 2%;
+        width: 100%;
+
+    }
+   
+
+  
+    .ht2
+    {
+        font-size: 1.5em;
+        margin-left: 2%;
+        padding-bottom: 1%;
+    }
+
+    .ht3
+    {
+        margin-bottom: -15px;
+        font-size: 2.5em;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .heberboit
+    {
+        width: 100%;        
+        padding-left: 10px;            
+        margin-bottom: -3px;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;   
+    }    
+    
+    .hebergements
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 40px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;          
     }
 
     #h1
-    {
-        margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
+    {   
+        
+        background-image: url(../images/hebergements/bunkbedr.jpg);  
     }
 
+   
      #h2
     {
-        margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
+        
+        background-image:url(../images/hebergements/camacr2.jpg)
     }
 
      #h3
     {
-        margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: -20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
+      
+        background-image:url(../images/hebergements/lampr.jpg) 
     }    
 
      #h4
     {
-        margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
+        
+        background-image: url(../images/hebergements/merr.jpg);
     }
 
      #h5
     {
-        margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       
+        background-image: url(../images/hebergements/panierr.jpg); 
     }
 
      #h6
     {
+       
+        background-image: url(../images/hebergements/minar.jpg);
+    }
+
+    #htitle
+    {
+        font-size: 3em;
         margin-left: 0;
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        box-shadow: 5px 5px 9px #f2f2f2;
     }
 
     #ap
     {
         margin-left: 10px;
-        margin-top: -16px;
+        margin-top: auto;
         margin-bottom: 0;
+        font-size: 2.3em;
     }
 
-    #ms
+    #tactiv
+    {
+        font-size: 3em;
+        margin-top: 14%;
+        margin-bottom: 7%;
+        margin-left: 0;
+    }
+
+    #activites
     {
         margin-top: 50px;
     }
 
-    #resul
+    #resul    
     {
-        display: flex;
+        
         flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-bottom: 65px;
+        
     }
 
-    #r3u
+    #actg1
     {
         width: auto;
         height: auto;
+        flex-wrap: initial;
     }
 
-    #r3u2
+    #actg2
     {
         width: auto;
         height: auto;
         margin-left: 0;
+        flex-wrap: initial;
+    }
+    
+    .standactivities
+    {
+        margin-left: -4%;
+        width: 893px;
+        height: 475px;
+        margin-bottom: 50px;
+        box-shadow: 5px 5px 9px #f2f2f2;
+        border-radius: 59px;
+        background-repeat: no-repeat;
     }
 
     #act1
     {
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+      
+        background-image: url(../images/activites/vieuxp.jpg);
     }
-    #pa1
+
+    .textbigact
     {
-        margin-top: 179px;
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
+    .app
+    {
+        margin-top: 4%;
+        margin-left: 3%;
     }
 
      #act2
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       
+        background-image: url(../images/activites/fortp.jpg);
     }
+
+    .txtsactmact
+    {
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
+    }
+
     #pa2
     {
-        margin-top: 180px;
+        margin-top: 41%;
+
     }
 
     #act3
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       
+        background-image: url(../images/activites/ilep.jpg);
     }
+
     #pa3
     {
-        margin-top: 190px;
+        margin-top: 41%;
     }
 
     #act4
     {
-        width: 347px;
-        height: 230px;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
-    }
-    #pa4
-    {
-        margin-top: 180px;
-    }
+      
+        background-image: url(../images/activites/parkp.jpg);
+    }   
 
     #act5
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       
+        background-image: url(../images/activites/notrep.jpg);
     }
-    #pa5
+
+   .textactms
     {
-        margin-top: 180px;
+        width: 99%;
+        margin-left: -1px;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 40px;
+        margin-top: 41%;
+        padding-bottom: 41px;
+        font-size: 2.3em;
+        padding-left: 5%;
+        padding-top: 4%;
     }
 
     #act6
     {
-        width: 347px;
-        height: 230px;
-        margin-left:0;
-        margin-bottom: 20px;
-        border: solid 5px white;
-        box-shadow: 5px 5px 9px #f2f2f2;
+       
+       background-image: url(../images/activites/longp.jpg);
+      
+       
     }
-    #pa6
-    {
-        margin-top: 190px;
-    }
+    
 
     footer
     {
-        width:auto;
-        margin-left:auto;
-        height: auto;
-        display: flex;
+        width:107%;
+        margin-left:-38px;
+        height: auto;        
         flex-direction: column;        
     }
 
     #fap
     {
-      margin-left: 18px;   
+      margin-left: 5%; 
+      margin-bottom: 2%;  
+      margin-top:4%;
+      font-weight: 500;
         
     }
 
     .footh3
     {
-        margin-right:0;
+        margin-right:0;        
+        font-size: 2.4em;
+        width: 43%;
     }
 
     .mf
     {
-        margin-left: 18px;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        font-weight: 500;
+        width:96%;
     }
+
+    #astf
+    {
+        width: auto;
+    }
+    
+    .lifoot
+    {
+        font-size:2.2em;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:1366px)
+{
+    #nav
+    {
+        margin-top:4%;
+    }
+
+    #hdisplay
+    {
+       width: 102%;
+       margin-left: -2%;
+       align-content: center;
+    }
+
+    article
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    #asid
+    {
+        width: auto;
+        height: fit-content;        
+        margin-top: 4%;
+    }
+    #heberg
+    {
+        justify-content: center;
+        margin-left:0;
+    }
+    #gberg
+    {
+        display: unset;
+    }
+    #htitle
+    {        
+        font-size: 1.8em;
+        margin-top: 3%;
+    }
+    .hebergements
+    {
+        width: 369px;
+    }
+    .heberboit
+    {
+        width: 365px;
+        margin-left: -1%;
+        padding-bottom: 1%;
+        margin-bottom: -1%;
+    }
+    #ap
+    {
+        font-size: 1.2em;
+    }
+   
+    #reve
+    {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    #tpr
+    {
+        text-align:center;
+        font-size: 1.2em;
+    }
+    #filtres
+    {
+        justify-content: center;
+    }
+    #form
+    {
+        width: 327px;
+    }
+    #spn
+    {
+        align-items: baseline;
+        margin-top: 1%;
+    }
+    #form::placeholder
+    {
+        font-size: 1.4em;
+        font-family: 'raleway';
+        text-align: center;
+    }
+
+    #info
+    {
+        justify-content:center;
+        font-size: 1.1em;
+    }
+    #butrech
+    {
+        justify-content: center;
+    }
+    .he
+    {
+        text-align: left;
+        margin-left: -22%;
+        font-size: 1.18em;
+    }
+    .he:nth-child(1) {
+        margin-top: -54px;
+        margin-right: 32px;
+        width: 139px;
+        padding-right: 8px;
+        padding-top: 33px;
+        padding-left: 10%;
+    }
+    .he:nth-child(2) 
+    {
+        margin-left: 78px;
+        margin-top: -54px;
+        margin-right:0px;
+        width: 119px;
+        padding-right: 47px;
+        padding-top: 33px;
+    }
+    .he:nth-child(3) 
+    {
+        margin-left: 69px;
+        margin-top: -51px;
+        margin-right: -50px;
+        width: 125px;
+        padding-right: 1px;
+        padding-top: 33px;
+        text-align: end;    
+    }
+    
+    #logo
+    {
+        margin-left: -2%;
+    }
+
+    .popula
+    {
+        height: auto;
+        width: fit-content;
+        margin-bottom: 2%;
+    }
+    #tp
+    {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #le3p
+    {
+        width: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #ichart
+    {
+        margin-left: -200%;
+    }
+    #lp
+    {
+        width: unset;        
+        padding-bottom: 4%;
+    }
+    
+       
+    #p2
+    {
+        order:-1;              
+    }
+
+    #p3
+    {
+        margin-left:2%;        
+    }
+
+    #h1 
+    {
+        background-image: url(../images/hebergements/bunkbedsmallt.jpg);
+    }
+
+    #h2 
+    {
+        background-image: url(../images/hebergements/camact.jpg);
+    }    
+    #h3 
+    {
+        background-image: url(../images/hebergements/lampt.jpg);
+    }
+    #h4 
+    {
+        background-image: url(../images/hebergements/mert.jpg);
+    }
+    #h5 
+    {
+        background-image: url(../images/hebergements/paniert.jpg);
+    }
+    #h6 
+    {
+        background-image: url(../images/hebergements/minat.jpg);
+    }
+    #actg2
+    {
+      margin-left: 0;  
+      margin-top: 5%;
+    }
+    #resul
+    {
+        font-size: 1.2em;
+    }
+    footer
+    {
+        width: 108%;
+    }
+   
+    
+    .footh3
+    {
+        width: fit-content;
+        margin-right: 261px;
+    }
+    #tactiv
+    {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #resul
+    {
+        justify-content: center;
+        margin-left: -6%;
+    }
+        
+    }
+
+    }
+
+}
+    
+@media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
+{
+    
+     .imp2  
+        {
+                display: flex;
+                margin-top: 10%;
+                margin-left: 3%;
+        }        
+        
+        .lifoot 
+        {
+                font-size: 2em;
+        }
+}
+
+}

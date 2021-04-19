@@ -37,6 +37,10 @@ nav
 {
     display: inline-flex;
 }
+#headul div
+{
+    display:flex;
+}
 
 ul
 {
@@ -86,7 +90,7 @@ main
     padding-top: 33px;  
 }
 
-.he:nth-child(2)
+.he2
 {
     margin-left: 74px;
     margin-top: -54px;
@@ -97,7 +101,7 @@ main
     
 }
 
-.he:nth-child(3)
+.he:nth-child(2)
 {
     margin-left: 20px;
     margin-top: -54px;
@@ -199,6 +203,7 @@ main
     display: inline-flex;
     margin-right: 15px;
     align-items: center;
+    
 
 }
 
@@ -776,67 +781,111 @@ ul
 
 
 
-@media screen and (max-device-width:667px)
+@media screen and (max-width:667px)
 {
+    body
+    {
+        margin: unset;
+    }
+    main
+    {
+        margin: unset;
+    }
     header
     {
-        background-size: 28%;   
-        margin-left: 0;    
+        display:flex;        
+    }
+    ul
+    {
+        margin-left: 0%;       
     }
 
     #logo
     {
-        width: 229px;
-        height: 107px;
-        margin-bottom: -15%;
-        margin-left: 4%;
-        margin-top: 2%;
+        width: 32%;
+        height: auto;
+        position: absolute; 
+        margin-left: 3%;
+        margin-top: 3%;          
+        
     }
 
         
     nav
     {
         width: auto;
-        height: 956px;
+        height: unset;
         margin-left: 0;
     }
     
+    #headul
+    {
+        display: flex;
+        flex-wrap: nowrap;  
+        margin: unset ;      
+        padding: unset;
+        height: 100%;
+        width: 100%;
+    }
+
+    #headul div
+    {
+        width: 100%;
+        height: 100% ;
+        
+    }
+   
        
     .he:nth-child(1)
     {
-        font-size: 2.5em;
-        padding-top: 31%;
-        margin-top: -15px;
-        border-bottom: 7px solid #F2F2F2;
-        width: 50%;
-        padding-left: 25%;
-        padding-right: 12%;
-        margin-left: -57%;
-        margin-right: -12%;
+        font-size: 5vw;        
+        margin-top: 31%;
+        margin-right: unset;        
+        padding-right: unset;
+        padding-top: unset;
+        position: relative;
+        top: 61%;        
+        width: 55%;
+        text-align: center;
+        border-bottom: 3px solid #F2F2F2;
+
+       
     }
    
-    .he:nth-child(2) 
+    .he2
     {
-        font-size: 2.5em;
+        font-size: 5vw;
         padding-top: 31%;
-        margin-top: -12px;
-        width: 50%;
-        border-bottom: 7px solid #F2F2F2;
-        padding-left: 5%;
-        padding-right: 26%;
+        margin-top: 31%;
+        margin-right: unset;
+        margin-left: unset;
+        width: unset; 
+        padding-right: unset;
+        padding-top: unset;
+        position: relative;
+        top: 61%;               
+        width: 45%;
+        text-align: center;
         padding-bottom: 6%;
+             
+        border-bottom: 3px solid #F2F2F2;
+       
     }
 
-    .he:nth-child(3)
+    .he:nth-child(2)
     {
-        padding-bottom: 3%;
-        margin-left: -36%;
-        margin-top: 0%;
-        margin-bottom: 52px;
-        font-size: 2.2em;
-        padding-right: 9%;
-        padding-left: 4%;
-        height: 100%;
+        margin-top: unset;
+        margin-right: unset;
+        margin-left: unset;
+        width: unset;
+        font-size:4.4vw;
+        position: absolute;
+        right:9%;               
+        text-align: center;
+        padding-right: unset;
+        
+       
+        
     }
 
     .he:hover
@@ -847,22 +896,21 @@ ul
 
     #sins
     {
-    border:none;
+            border:none;
     }
 
     #reve
     {
-        width: 82%;
-        font-size: 3.0em;
+              
         margin-top: 8%;
-        margin-left: 5%;
+        font-size: 6.5vw;
+        margin-left: 6%;
     } 
 
     #tpr
     {
-        margin-left:6%;
-        margin-top:-1%;
-        font-size: 2.34em;
+        margin-left: 6%;
+        font-size: 4.8vw;
     }
 
     #butmap
@@ -871,11 +919,13 @@ ul
         justify-content: center;
         align-items: center;
         background-color: #F2F2F2;
-        height: 85px;
+        height: 100%;
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
-        width: 98px;  
-        font-size: 1.5em;
+        width: 27%;   
+        font-size: 4vw;    
+        margin-left: 1%;
+        padding-right: 1%;   
     }
 
     #spn
@@ -889,16 +939,16 @@ ul
     #form
     {
         border: 1px solid #F2F2F2;
-        height: 84px;
-        width: 667px;
+        height: unset;
+        width: 100%;
         padding-left: 7%;
         padding-top: 2%;
-        font-size: 1em;
+        font-size: 4.2vw;
     }
 
     #form::placeholder
     {
-        font-size: 2.3em;
+        font-size: unset;
         font-family: 'ralewaythin', Verdana;
     }
 
@@ -910,8 +960,10 @@ ul
 
     #butrech
     {
-        margin-top: 7%;
-        margin-left: 2%;
+        margin-top: 7%;        
+        height: 17vw;
+        width: 100%;
+
     }
 
     #rech2
@@ -919,19 +971,23 @@ ul
         background-color: #0065FC;
         border: 10px;
         color: #FFFFFF;
-        padding: 15px;
+        padding: 0px;
         vertical-align: middle;
-        border-radius: 26px;
-        width: 52px;
-        height: 44px;
-        padding-left: 25px;
-        padding-top: 25px;
-        margin-top: 0;
-        font-size: 1.9em;
+        border-radius: 12px;
+        width: 28%; 
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+       
+        margin-top: 0;        
     }
     #rechr
     {
-        display: contents;
+        display: flex;
+        justify-content: center;
+        font-size: 4vw;
+        
+    
     }
    
 
@@ -946,7 +1002,7 @@ ul
 
     #fil
     {
-        font-size: xx-large;
+        font-size: 4.8vw;
     }
 
     #fil2 
@@ -962,8 +1018,9 @@ ul
 
     .filtret
     {
-        font-size: 2em;
+        
         margin-top: 0%;
+        font-size: 4.5vw;
         
     }
     .filtreb
@@ -972,35 +1029,36 @@ ul
         border-color: #F2F2F2;
         align-items: center;
         border-radius: 34px;
-        height: 74px;
+        margin-right: unset;        
         display: inline-flex;
+        border: 2px solid #F2F2F2;
+        width: 43%;
+        height: 12vw;
     }
 
     #mon
     {        
-        width: 38%;
-        margin-right: 15px;
+        width: auto;        
         align-items: center;
     }
 
     #monr
     {
-        margin-top: 0;   
-        width: 28%;     
+        margin-top: 0;  
+            
     }
 
     
     #childr
     {
-        width: 31%;
+        
     }
 
     #child
     {
+        margin-left: 3%;      
         
-        width: 33%;
-        margin-right: 23px;
-        margin-left: 1%;
+        
     }
 
     #childt
@@ -1010,15 +1068,14 @@ ul
 
     #heartr
     {
-        width: 27%;
+        
     }
 
     #heart
     {
-      
-        width: 38%;
-        margin-top: 3%;
-        margin-right: 12%;
+              
+        margin-top: 3%;        
+        width: 49%;
     }
 
     
@@ -1030,23 +1087,20 @@ ul
 
     #dog
     {
-    
-        width: 47%;
-        margin-top: 3%;
-        margin-left: 1%;
+        width: 60%; 
+        margin-top: 3%;       
     }
 
     .prondf
-    {
-        width: 22%;
-        height: 120%;
+    {       
+        height: 104%;
+        width: 12vw;
         align-items: center;
-        border-radius: 57px;
-        margin-right: 28px;       
-        justify-content: center;
+        border-radius: 57px;               
+        justify-content: center;         
+        background-color: #DEEBFF;   
         margin-left: -2%; 
-        background-color: #DEEBFF;    
-        font-size: 2em;
+        font-size: 4vw;       
     
     }
     
@@ -1058,27 +1112,32 @@ ul
 
     #info
     {
-        font-size: 1.8em;
-        margin-left: 4%;
+         margin-left: 4%;
         margin-top: 5%; 
+        font-size: 4.5vw;
+        width: 96%;
             
     }
    
 
     #bin
     {
-        width: 5%;
-        height: 42px;
+        width: 17px;
+        height: 1em;
         align-items: center;
-        border-radius: 25px;
-        margin-right: 10px;
+        border-radius: 41px;        
         display: flex;
         justify-content: center;
         border: 1px solid;
         border-color: #F2F2F2;
+        padding: 5px;
       
     }
-
+    #heberg
+    {
+        margin-left: unset;
+        flex-direction: column;
+    }
     #gberg
     {       
         flex-direction: column-reverse;        
@@ -1087,25 +1146,29 @@ ul
     #hdisplay
     {
                       
-        width: auto;
+        width: 100%;
         margin-right: auto;
         background-color: white;
         margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
+
+    
 
     #asid
     {            
         border-radius: 0;         
         margin-right: 0;
-        width: 109%;
-        margin-left: -52px;
+        width: 100%;      
     }
 
     #tp
     {    
-        margin-left: 0px;
-        font-size: 3em;       
+        margin-left: 0px;              
         padding-left: 0px;
+        font-size: 6vw;
     }
 
     #chart
@@ -1116,8 +1179,9 @@ ul
 
     #ichart 
     {
-        font-size:2.1em;
-        margin-left: -257%
+        font-size: 6.5vw;
+        position: relative;
+        right: 30%;
     }
     
 
@@ -1129,14 +1193,16 @@ ul
 
     .rpp1
     {
-        margin-left: 81%;
-        width: 100%;    
+        width: 100%;
+        font-size: 3.8vw;
+        position: relative;
+        left: 15%; 
+        margin-left: unset;
     }
 
     .imp1
     {
-        margin-top: 11% ;
-        font-size: 1.5em;
+        margin-top: 11% ;        
     }
 
     #mc
@@ -1146,16 +1212,19 @@ ul
 
     #mc2
     {
-        margin-left: 53%;
-        width: 74%;
+        
+        width: 53%;
+        height: 100%;
+        margin-left: 30%;
     }
     .popula
     {
-        width: 115%;
-        height: 307px;        
-        background-size: 336px 304px;       
+        width: 100%;
+        height: 34%;
+        background-size: 44% 100%;
         margin-bottom: 7%;
-        margin-left: -18px;
+        display: flex;
+        justify-content: flex-end;
     }
 
   
@@ -1173,14 +1242,12 @@ ul
     }
     .hp3
     {
-        font-size: 2.7em;
-        margin-top: 6%;
+                margin-top: 6%;
         margin-left: 2%;
     }
 
     .hp4
-    {
-        font-size:2em;
+    {        
         margin-left: 2%;
         width: 100%;
 
@@ -1190,15 +1257,14 @@ ul
   
     .ht2
     {
-        font-size: 1.5em;
+        
         margin-left: 2%;
         padding-bottom: 1%;
     }
 
     .ht3
     {
-        margin-bottom: -15px;
-        font-size: 2.5em;
+        margin-bottom: -15px;        
         margin-top: 2%;
         margin-left: 2%;
     }
@@ -1206,21 +1272,23 @@ ul
     .heberboit
     {
         width: 100%;        
-        padding-left: 10px;            
+        padding-left: 5%;            
         margin-bottom: -3px;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 40px;   
+        border-bottom-right-radius: 40px;
+        font-size: 4.2vw;   
     }    
     
     .hebergements
     {
-        margin-left: -4%;
-        width: 893px;
-        height: 475px;
+        width: 90%;
+        height: 58vw;
         margin-bottom: 40px;
         box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;          
+        border-radius: 59px;
+        background-size: 100% 76%;
+        margin-left: 2%;      
     }
 
     #h1
@@ -1262,29 +1330,31 @@ ul
 
     #htitle
     {
-        font-size: 3em;
-        margin-left: 0;
+        
+        margin-left: 6%;
+        font-size:6vw; 
     }
 
     #ap
     {
-        margin-left: 10px;
-        margin-top: auto;
+        margin-left: 4%;
+        margin-top: -4%;
         margin-bottom: 0;
-        font-size: 2.3em;
+        font-size: 5.3vw;
     }
 
     #tactiv
     {
-        font-size: 3em;
+        font-size: 6vw;
         margin-top: 14%;
         margin-bottom: 7%;
-        margin-left: 0;
+        margin-left: 6%;
     }
 
     #activites
     {
         margin-top: 50px;
+        padding-bottom: 6%;
     }
 
     #resul    
@@ -1296,47 +1366,49 @@ ul
 
     #actg1
     {
-        width: auto;
-        height: auto;
-        flex-wrap: initial;
+        width: 100%;
+        height: 100%;        
     }
 
     #actg2
     {
-        width: auto;
-        height: auto;
-        margin-left: 0;
-        flex-wrap: initial;
+        width: 100%;
+        height: 100%;
+        margin-left: unset;
     }
     
     .standactivities
     {
         margin-left: -4%;
-        width: 893px;
-        height: 475px;
+        width: 100%;
+        height: unset;
         margin-bottom: 50px;
         box-shadow: 5px 5px 9px #f2f2f2;
         border-radius: 59px;
         background-repeat: no-repeat;
+        background-size: 100%;
     }
 
     #act1
     {
       
         background-image: url(../images/activites/vieuxp.jpg);
+        margin-bottom: 32vw;
     }
+    
 
     .textbigact
     {
-        width: 99%;
+        width: 96%;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
         padding-bottom: 41px;
-        font-size: 2.3em;
+        font-size: 5.2vw;
         padding-left: 5%;
         padding-top: 4%;
+        margin-bottom: -1%;
     }
 
     .app
@@ -1349,19 +1421,33 @@ ul
     {
        
         background-image: url(../images/activites/fortp.jpg);
+        margin-bottom: 22vw;
+    }
+    .mact
+    {
+        
+    }
+    .sact
+    {
+        
+    }
+    .smact
+    {
+       
     }
 
     .txtsactmact
     {
-        width: 99%;
+        width: 96%;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
         padding-bottom: 41px;
-        font-size: 2.3em;
+        font-size:5.2vw;
         padding-left: 5%;
         padding-top: 4%;
+        margin-bottom: -1%;
     }
 
     #pa2
@@ -1374,6 +1460,7 @@ ul
     {
        
         background-image: url(../images/activites/ilep.jpg);
+        margin-bottom: 10vw;
     }
 
     #pa3
@@ -1385,31 +1472,37 @@ ul
     {
       
         background-image: url(../images/activites/parkp.jpg);
+        margin-top: 20%;
+        margin-bottom: 18vw;
+
     }   
 
     #act5
     {
        
         background-image: url(../images/activites/notrep.jpg);
+        margin-bottom: 15vw;
     }
 
    .textactms
     {
-        width: 99%;
+        width: 96%;
         margin-left: -1px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         margin-top: 41%;
         padding-bottom: 41px;
-        font-size: 2.3em;
+        font-size: 5.2vw;
         padding-left: 5%;
         padding-top: 4%;
+        margin-bottom: -1%;
     }
 
     #act6
     {
        
        background-image: url(../images/activites/longp.jpg);
+       margin-bottom: 20%;
       
        
     }
@@ -1417,8 +1510,8 @@ ul
 
     footer
     {
-        width:107%;
-        margin-left:-38px;
+        width:100%;
+        margin-left:unset;
         height: auto;        
         flex-direction: column;        
     }
@@ -1435,8 +1528,8 @@ ul
     .footh3
     {
         margin-right:0;        
-        font-size: 2.4em;
-        width: 43%;
+        font-size: 5.2vw;
+        width: 56%;
     }
 
     .mf
@@ -1454,11 +1547,14 @@ ul
     
     .lifoot
     {
-        font-size:2.2em;
+        font-size: 5.2vw;
+        margin-left: -13%;
     }
 }
 
-@media screen and (min-device-width:720px) and (max-device-width:1366px)
+
+
+@media screen and (min-width:720px) and (max-width:1366px)
 {
     #nav
     {
@@ -1528,6 +1624,7 @@ ul
     #filtres
     {
         justify-content: center;
+        width: 100%;
     }
     #form
     {
@@ -1561,25 +1658,24 @@ ul
         font-size: 1.18em;
     }
     .he:nth-child(1) {
-        margin-top: -54px;
-        margin-right: 32px;
+        margin-top: -54px;        
         width: 139px;
-        padding-right: 8px;
+        padding-right: 3vw;
         padding-top: 33px;
         padding-left: 10%;
     }
-    .he:nth-child(2) 
+    .he2
     {
         margin-left: 78px;
         margin-top: -54px;
         margin-right:0px;
         width: 119px;
-        padding-right: 47px;
-        padding-top: 33px;
+        padding-right: 10vw;
+        padding-top: 38px;
     }
-    .he:nth-child(3) 
+    .he:nth-child(2) 
     {
-        margin-left: 69px;
+        margin-left: -15%;
         margin-top: -51px;
         margin-right: -50px;
         width: 125px;
@@ -1671,11 +1767,13 @@ ul
         width: 108%;
     }
    
+
     
     .footh3
     {
         width: fit-content;
-        margin-right: 261px;
+        margin-right: unset;   
+        margin-left: 1%;
     }
     #tactiv
     {
@@ -1685,29 +1783,68 @@ ul
     #resul
     {
         justify-content: center;
-        margin-left: -6%;
+       
     }
+    .standactivities
+    {
+        width: unset;
+    }
+    .app
+    {
+        width: 47%;
+    }
+    .bigact
+    {
+        height: 88%;
+    }
+    
+    #fap
+    {
+        margin-left: 6%;
+        padding-right: 6%;
+    }
+    .mf
+    {
+        
         
     }
+    #astf
+    {
+        width: unset;
+    }
 
+    #dog   
+    {
+        margin-right: -15px;
+    }
+    
+    #prondf
+    {
+        width: 5vw;
+        height: 5vw
+    }
+    #dogr
+    {
+        margin-right: 15%;
+    }
+
+    .filtret
+    {
+        width:20% ;
+        font-size: 0.9em;
+    }
+    #fil
+    {
+        margin-right: 2%;
     }
 
 }
+
+    
+
+
     
 @media all and (min--moz-device-pixel-ratio:0) and (max-width: 680px)
 {
     
-     .imp2  
-        {
-                display: flex;
-                margin-top: 10%;
-                margin-left: 3%;
-        }        
-        
-        .lifoot 
-        {
-                font-size: 2em;
-        }
-}
-
 }
