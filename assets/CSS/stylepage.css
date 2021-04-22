@@ -782,7 +782,7 @@ ul
 
 
 
-@media screen and (max-width:667px)
+@media screen and (max-width:719px)
 {
     body
     {
@@ -798,7 +798,8 @@ ul
     }
     ul
     {
-        margin-left: 0%;       
+        margin-left: 0%;   
+        width: 81%;    
     }
 
     #logo
@@ -1123,13 +1124,13 @@ ul
 
     #bin
     {
-        width: 17px;
-        height: 1em;
+        width: 4%;
+        height: 4%;
         align-items: center;
         border-radius: 41px;        
         display: flex;
         justify-content: center;
-        border: 1px solid;
+        border: 2px solid;
         border-color: #F2F2F2;
         padding: 5px;
       
@@ -1167,7 +1168,7 @@ ul
 
     #tp
     {    
-        margin-left: 0px;              
+        margin-left: -12px;              
         padding-left: 0px;
         font-size: 6vw;
     }
@@ -1175,14 +1176,14 @@ ul
     #chart
     {
         margin-top: 4%;
-        width: 118%;
+        width: 100%;
     }
 
     #ichart 
     {
         font-size: 6.5vw;
         position: relative;
-        right: 30%;
+        left:79%;
     }
     
 
@@ -1222,10 +1223,12 @@ ul
     {
         width: 100%;
         height: 34%;
-        background-size: 44% 100%;
+        background-size: 39% 100%;
         margin-bottom: 7%;
         display: flex;
         justify-content: flex-end;
+        padding-right: 11%;
+        margin-left: -13px;
     }
 
   
@@ -1250,7 +1253,7 @@ ul
     .hp4
     {        
         margin-left: 2%;
-        width: 100%;
+        width: 97%;
 
     }
    
@@ -1272,10 +1275,11 @@ ul
 
     .heberboit
     {
-        width: 100%;        
-        padding-left: 5%;            
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 6px;
         margin-bottom: -3px;
-        margin-left: -1px;
+        margin-left: -3px;
         border-bottom-left-radius: 29px;
         border-bottom-right-radius: 40px;
         font-size: 4.2vw;   
@@ -1283,13 +1287,13 @@ ul
     
     .hebergements
     {
-        width: 90%;
+        width: 89%;
         height: 58vw;
         margin-bottom: 40px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
+        box-shadow: 0px 2px 8px 3px rgba(0,0,0,0.1);
+        border-radius: 30px;
         background-size: 100% 76%;
-        margin-left: 2%;      
+        margin-left: 3%;      
     }
 
     #h1
@@ -1339,7 +1343,7 @@ ul
     #ap
     {
         margin-left: 4%;
-        margin-top: -4%;
+        margin-top: -9%;
         margin-bottom: 0;
         font-size: 5.3vw;
     }
@@ -1362,6 +1366,7 @@ ul
     {
         
         flex-direction: column;
+        margin-left: 47px;
         
     }
 
@@ -1379,15 +1384,15 @@ ul
     }
     
     .standactivities
-    {
-        margin-left: -4%;
-        width: 100%;
+    {        
+        width: 99%;
         height: unset;
         margin-bottom: 50px;
-        box-shadow: 5px 5px 9px #f2f2f2;
-        border-radius: 59px;
+        box-shadow: 0px 2px 8px 3px rgba(0,0,0,0.1);
+        border-radius: 30px;
         background-repeat: no-repeat;
         background-size: 100%;
+        margin-left: -11px;
     }
 
     #act1
@@ -1514,7 +1519,8 @@ ul
         width:100%;
         margin-left:unset;
         height: auto;        
-        flex-direction: column;        
+        flex-direction: column;
+        padding-right: unset;        
     }
 
     #fap
@@ -1523,6 +1529,7 @@ ul
       margin-bottom: 2%;  
       margin-top:4%;
       font-weight: 500;
+      width: 93%;
         
     }
 
@@ -1538,12 +1545,12 @@ ul
         margin-left: 5%;
         margin-bottom: 3%;
         font-weight: 500;
-        width:96%;
+        width:92%;
     }
 
     #astf
     {
-        width: auto;
+        width: 80%;
     }
     
     .lifoot
@@ -1557,6 +1564,11 @@ ul
 
 @media screen and (min-width:720px) and (max-width:1366px)
 {
+    
+    body
+    {
+    margin: unset;
+    }
     #nav
     {
         margin-top:4%;
@@ -1564,9 +1576,11 @@ ul
 
     #hdisplay
     {
-       width: 102%;
-       margin-left: -2%;
-       align-content: center;
+        width: 99%;
+        margin-left: 0%;
+        align-content: center;
+        margin-right: 0px;
+        padding-right: 5px;
     }
 
     article
@@ -1693,14 +1707,20 @@ ul
     .popula
     {
         height: auto;
-        width: fit-content;
+        width: 397px;
         margin-bottom: 2%;
     }
+    #p1
+    {
+        margin-left: 2%;
+    }
+
     #tp
     {
         text-align: center;
         font-size: 1.8em;
     }
+
     #le3p
     {
         width: fit-content;
@@ -1765,10 +1785,10 @@ ul
     }
     footer
     {
-        width: 108%;
+        width: 100%;
+        margin-left: unset;
+        padding-right: unset;      
     }
-   
-
     
     .footh3
     {
@@ -1788,8 +1808,21 @@ ul
     }
     .standactivities
     {
-        width: unset;
+        width: 100%;
     }
+    .mact
+    {
+        margin-left: unset;
+    }
+    .msact
+    {
+        margin-left: unset;
+    }
+    .sact
+    {
+        margin-left: unset;
+    }
+    
     .app
     {
         width: 47%;
@@ -1801,14 +1834,10 @@ ul
     
     #fap
     {
-        margin-left: 6%;
+        margin-left: 10%;
         padding-right: 6%;
     }
-    .mf
-    {
-        
-        
-    }
+    
     #astf
     {
         width: unset;
@@ -1837,6 +1866,16 @@ ul
     #fil
     {
         margin-right: 2%;
+    }
+    main
+    {
+        margin: unset;
+    }
+
+    header
+    {
+        margin-left: 39px;
+        margin-top: 16px;
     }
 
 }
